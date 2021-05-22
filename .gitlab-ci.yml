@@ -1,0 +1,22 @@
+# see https://www.gatsbyjs.org/docs/deploying-to-gitlab-pages/
+image: node:latest
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+    - node_modules/
+
+# deploy testnet to gitlab
+variables:
+  GATSBY_EOSIO_CHAIN: "jungle"
+
+pages:
+  script:
+    - yarn install
+    - yarn run build # skip --prefix-paths because we use custom domain
+  artifacts:
+    paths:
+      - public
+  only:
+    - feature/lp-tokens

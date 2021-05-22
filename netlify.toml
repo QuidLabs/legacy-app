@@ -1,0 +1,26 @@
+[build]
+  command = "yarn build"
+  publish = "public"
+
+# first redirect that matches is performed
+# let everyone load the bg image
+[[redirects]]
+  from = "/static/*"
+  to = "/static/*"
+
+# block some countries
+[[redirects]]
+  from = "/*"
+  to = "/451.html"
+  status = 451
+  force = true
+  # https://dev.maxmind.com/geoip/legacy/codes/iso3166/
+  # add "US", "PR", "CN" again when we go live?
+  conditions = {Country=["AF", "DZ", "BD", "BO", "EG", "IR", "IQ", "LS", "LY", "MK", "MA", "NP", "KP", "PK", "QA", "SY", "AE", "YE", "AL", "AS", "BS", "BB", "BW", "KH", "CD", "ET", "GH", "GU", "IS", "JM", "MU", "MN", "MM", "NI", "NG", "PA", "WS", "SA", "SO", "LK", "SD", "TT", "TN", "VI"]}
+  headers = {Link="<https://app.vigor.ai>"}
+
+[build.environment]
+  REACT_APP_IS_PRODUCTION_DEPLOY = "false"
+
+[context.production.environment]
+  REACT_APP_IS_PRODUCTION_DEPLOY = "true"

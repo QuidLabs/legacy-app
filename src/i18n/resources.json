@@ -1,0 +1,2488 @@
+{
+  "en": {
+    "translation": {
+      "vigorStablecoin": "Vigor Protocol",
+      "connectWallet": "Connect Wallet",
+      "viewDashboard": "View Dashboard",
+      "step": "Step",
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "borrowText": "Borrow",
+      "repay": "Repay",
+      "debt": "Debt",
+      "collateral": "Collateral",
+      "loan": "Loan",
+      "solvency": "Solvency",
+      "amountOf": "Amount Of",
+      "amount": "Amount",
+      "asset": "Asset",
+      "percent": "Percent",
+      "noData": "n/a",
+      "value": "Value",
+      "max": "Max",
+      "inWallet": "In Wallet",
+      "notLoggedIn": "Not logged in yet",
+      "login": "Login",
+      "logout": "Logout",
+      "walletBalances": "Wallet Balances",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "done": "Done",
+      "faucet": "Jungle Faucet",
+      "waitForSettlement": "Your actions are being settled",
+      "help": "Help",
+      "collateralRatio": "Collateral Ratio",
+      "balance": "Balance",
+      "resources": {
+        "Available": "Available",
+        "Title": "Title",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "No Data",
+        "freefreeTxTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "Sorry, something went wrong",
+        "subtitle": "Please report this error along with the following data to the developers"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "Sign the VIGOR DAC Constitution",
+          "version": "Version",
+          "hash": "Hash",
+          "viewOnGithub": "View on Github",
+          "vigorConstitutionOnGithub": "View VIGOR DAC constitution on github",
+          "submitButton": "Sign constitution",
+          "checkbox_readAndAgreedToConstitution": "I have read and agree with the terms of the constitution."
+        },
+        "disclaimer": {
+          "title": "Risk Disclosure",
+          "submitButton": "I understand",
+          "item1": "Lending is not without risk. Lenders receive rewards for a reason. Lenders provide the bailout protection for loans that get liquidated. During a bailout event, lenders automatically receive liquidated debt and any associated collateral tokens. Bailout proceeds are possibly a net loss, shared by all lenders according to percent contribution to solvency. Lenders hope to gain more in lending rewards than they lose to net bailout proceeds.",
+          "item2": "If eosio.rex reaches the 90% lent level, a liquidity crunch, then user may not be able to transact EOS until rex is liquid again. If eosio core chain features aren't working, the Vigor dapp may not work either.",
+          "item3": "All EOS deposits go into REX and wait for five days to become liquid. Users can withdraw immediately any EOS that has already been matured if there is any available. If not then users need to wait for the next REX maturity date.",
+          "item4": "As the lending pool loans out tokens, there is not enough of the liquidity remaining for all lenders to withdraw at the same time. The lending pool enforces a maximum lending limit to attempt to maintain liquidity.",
+          "item5": "Savings is the least risky activity on vigor, but is not void of risk. Savers would only take loss in a catastrophic event after all lenders/insurers are wiped out and after final reserve have no more capacity, as savers are most senior.",
+          "item6": "Borrowers must maintain collateral ratio above {{bailoutCr}}% otherwise they are sent to bailout. Bailout means their debt and an equal amount of collateral (plus a liquidation penalty amount, {{fee}}%) will be taken and given to lenders.",
+          "note": "PLEASE NOTE: The Vigor Protocol and Smart Contracts are fully decentralized, have no single owner, maintainer, developer, controller. Your use of the protocol is therefore entirely at your own risk - YOU MIGHT LOSE EVERYTHING USING THE PROTOCOL. There is no entity or person to recourse to in case of partial or total loss of any assets or digital tokens. PLEASE CONSIDER CAREFULLY BEFORE USING THE PROTOCOL. In extremely rare circumstances it is possible that your assets or digital tokens might remain unaccessible for a period of time. NEVER LOCK IN THE VIGOR SMART CONTRACTS AND PROTOCOL MORE DIGITAL TOKENS THAN YOU CAN AFFORD TO LOSE AND/OR BEING UNABLE TO ACCESS FOR A PROLONGED PERIOD OF TIME."
+        },
+        "userOpening": {
+          "title": "Open user account",
+          "body": "The VIGOR protocol allows only a certain number of free user account openings per day. Come back later for a free account or stake VIG to open your account right now.",
+          "body2": "You can skip the waiting period by staking VIG. The stake can be withdrawn again after 30 days.",
+          "stake": "Stake"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "Insufficient VIG Fees & Rewards Balance",
+          "yourBalance": "Current VIG Fees & Rewards balance:",
+          "agreeInitial": "You agree to borrow some VIG - used to pay fees - with this transaction.",
+          "alternatively": "Alternatively, you can manually deposit VIG to your VIG Rewards & Fee Balance",
+          "confirm": "Yes, borrow VIG"
+        },
+        "depositWithdrawFees": {
+          "title": "VIG Fees & Rewards Balance - Deposit / Withdraw"
+        }
+      },
+      "nav": {
+        "home": "Home",
+        "YourDashboard": "Your Dashboard",
+        "history": "Account History",
+        "Alerts": "Alerts",
+        "Health": "Vigor Health",
+        "Borrow": "Borrow",
+        "Earn": "Get Rewarded",
+        "EarnInsure": "Insure",
+        "EarnSaving": "Savings",
+        "BorrowCrypto": "Crypto",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "Statistics",
+        "StatsUsersMobile": "User (mobile)",
+        "StatsMarkets": "Markets",
+        "StatsVIGORLoans": "Loans - VIGOR",
+        "StatsCryptoLoans": "Loans - Crypto"
+      },
+      "accountData": {
+        "constitutionSigned": "signed constitution",
+        "tooltips": {
+          "readyToGo": "You're all set!",
+          "thingsToDo_signConstitution": "You need to sign the DAC constitution\n before using VIGOR"
+        }
+      },
+      "index": {
+        "header": "Borrow, Lend, and Save Community.\nDecentralized, Automated Lending.",
+        "earn": "Rewards",
+        "earnDescription": "Get rewarded VIG tokens by locking your crypto in an insurance pool to back loans or by locking up Vigor in a crypto savings account.",
+        "earnRateDescription": "Rates as high as",
+        "earnButton": "Get Rewards",
+        "borrow": "Borrow",
+        "borrowDescription": "Lock up collateral to borrow VIGOR tokens or other cryptocurrencies.",
+        "borrowRateDescription": "Rates as low as",
+        "borrowButton": "Start Borrowing"
+      },
+      "alerts": {
+        "authenticate": "Authenticate",
+        "settingsFailed": "Could not load settings",
+        "retry": "Retry",
+        "setup": "Set Up Notifications",
+        "notifyAt": "Notify at Collateral Ratio",
+        "attachTelegram": "Attach Telegram",
+        "verify": "Verify",
+        "enable": "Enable Notifications",
+        "updateSettings": "Update Settings",
+        "title": "Alerts",
+        "subtitle": "Get notified when you're close to a bailout"
+      },
+      "health": {
+        "earnDescription": "Get VIG rewards as an insurer or with crypto savings.",
+        "borrowDescription": "Borrow VIGOR or other cryptocurrencies.",
+        "vigorHealth": "VIGOR Health",
+        "inReserve": "In Reserve",
+        "inReserve_tooltip": "In Reserve...",
+        "totalBorrowed": "Total Borrowed",
+        "totalBorrowed_tooltip": "Total Borrowed...",
+        "vigPrice": "VIG Price",
+        "vigPrice_tooltip": "VIG Price....",
+        "vigorSupply": "VIGOR Supply",
+        "vigorSupply_tooltip": "VIGOR Supply...",
+        "totalCollateralVal": "Total Collateral Value",
+        "totalCollateralVal_tooltip": "Total Collateral Value...",
+        "totalInsurance": "Total Insurance",
+        "totalInsurance_tooltip": "Total Insurance...",
+        "totalDebt": "Total Debt",
+        "totalDebt_tooltip": "Total Debt...",
+        "solvency": "Solvency",
+        "solvency_tooltip": "Represents capital adequacy to back the low volatility token",
+        "global": "Global View",
+        "finalReserve": "Final Reserve",
+        "rate": "Rate",
+        "charts": {
+          "borrowRates": "Borrow Rates",
+          "borrowInfo": "VIGOR borrow rates reflect the supply and demand of crypto loans. With every new borrow or lend, stress tests are done on-chain in real time, and loan rates update to keep solvency in line with capital requirements.",
+          "borrowVigor": "Borrow VIGOR",
+          "borrowCrypto": "Borrow Crypto"
+        }
+      },
+      "earn": {
+        "insureTitle": "Become a Lender",
+        "insureDescription": "Lenders are rewarded in VIG tokens for depositing Cryptos and VIGOR tokens into the insurance pool to insure the system against both upside and downside market stress events.",
+        "insureButton": "Insure Loans",
+        "savingsTitle": "Savings",
+        "savingsDescription": "Lock VIGOR tokens and get rewarded a savings rate on your funds.",
+        "savingsButton": "Start Saving"
+      },
+      "earnInsure": {
+        "title": "Lend",
+        "subtitle": "Deposit Insurance, Get Rewarded",
+        "insuranceValue": "Insurance Value",
+        "insuranceAmount": "Insurance Amount",
+        "availableAmount": "Available Amount",
+        "earningRate": "Est. Reward Rate",
+        "tableTitle": "Your Insurances"
+      },
+      "earnSavings": {
+        "title": "Savings",
+        "subtitle": "Deposit VIGOR Into a Protected Savings Vault and get VIG Rewards",
+        "totalSavingsVigorValue": "Savings Value",
+        "tableTitle": "Your Savings"
+      },
+      "borrow": {
+        "stableTitle": "Low Volatility Loan",
+        "stableDescription": "Deposit crypto as collateral for taking out a VIGOR token loan. Pay loan premiums in VIG token.",
+        "cryptoTitle": "Crypto Loan",
+        "cryptoDescription": "Deposit VIGOR token as collateral for taking out a crypto loan. Pay loan premiums in VIG token.",
+        "startLoan": "Start New Loan"
+      },
+      "borrowVigor": {
+        "title": "VIGOR Loans",
+        "step1Description": "Deposit cryptocurrency as collateral for your loan.",
+        "step2Description": "Deposit VIG tokens to cover loan premiums. Loan payments occur automatically.",
+        "step3Description": "Withdraw VIGOR token to initiate the loan.",
+        "step4Description": "To avoid loan bailout, keep adequate <br/> collateral and VIG tokens at all times.",
+        "step1": {
+          "pageTitle": "Deposit Collateral",
+          "tableTitle": "Your Collateral",
+          "cryptoCollateral": "Crypto Collateral",
+          "depositCollateral": "Deposit Collateral"
+        },
+        "step2": {
+          "pageTitle": "Deposit VIG",
+          "tableTitle": "Your VIG Fees Balance",
+          "vigCollateral": "VIG Collateral"
+        },
+        "step3": {
+          "totalCollateral": "Total Collateral",
+          "pageTitle": "Borrow/Repay VIGOR",
+          "tableTitle": "Your VIGOR",
+          "interestRate": "Est. Borrow Rate",
+          "estimatedVig": "Est. Monthly Premiums",
+          "loanNote": "*Loans have variable interest rates and no term. Interest rates vary based on collateral value compared to amount borrowed (solvency) and your crypto credit score."
+        }
+      },
+      "borrowCrypto": {
+        "title": "Crypto Loans",
+        "step1Description": "Deposit VIGOR as collateral for your loan.",
+        "step3Description": "Withdraw your crypto tokens to initiate the loan.",
+        "step1": {
+          "vigorCollateral": "VIGOR Collateral"
+        },
+        "step3": {
+          "pageTitle": "Borrow/Repay Crypto",
+          "tableTitle": "Your Crypto",
+          "cryptoInWallet": "Crypto In Wallet",
+          "cryptoDebt": "Crypto Debt"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "Transaction sent!"
+      },
+      "overlay": {
+        "waiting": "Waiting for authenticator...",
+        "success": "Signed successfully!",
+        "error": "Transaction failed!"
+      },
+      "footer": {
+        "version": "Version",
+        "poweredBy": "Powered by",
+        "copyright": "Copyright © VIGOR DAC Ltd. 2020",
+        "disclaimer": "Risk Disclosure",
+        "termsConditions": "Terms & Conditions",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "user": {
+        "liquidate": {
+          "button": "Liquidate"
+        },
+        "fees": {
+          "title": "VIG Fees & Rewards",
+          "vigRewards": "VIG Rewards",
+          "vigRewardsToolTip": "Lending + Savings rewards",
+          "eosRewards": "EOS Rewards",
+          "eosRewardsToolTip": "Vote Proxy + REX rewards",
+          "vigorRewards": "VIGOR Rewards",
+          "vigorRewardsToolTip": "Rewards for VIG deposited in lending pool",
+          "feesPaid": "Fees Paid",
+          "feesPaidToolTip": "Premiums paid for loans"
+        },
+        "poolContribution": "Contribution",
+        "solvencyContribution": "Contribution",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- exceeds transaction limit!",
+          "ExceedWdLimit": "- exceeds withdrawal limit!",
+          "ExceedAccountValueLimit": "- exceeds account value limit!"
+        },
+        "donut": {
+          "ok": "Ok",
+          "ratio": "Collateral Ratio",
+          "liquidation": "Liquidation",
+          "danger": "Danger"
+        },
+        "lend": {
+          "title": "Lend",
+          "reward": "Lender Reward",
+          "insurance": "{{token}} Insurance",
+          "pctsTooltip": "Your contribution to solvency for VIGOR and crypto loans.",
+          "lendRewardTooltip": "The reward depends on your personal contribution to solvency."
+        },
+        "vault": {
+          "title": "Savings",
+          "inVault": "{{token}} in Savings",
+          "reward": "Savings Reward",
+          "pctsTooltip": "Your contribution to the VIGOR savings pool"
+        },
+        "vigorLoans": {
+          "title": "VIGOR Loans",
+          "borrowRate": "Borrow Rate",
+          "reputation": "Reputation",
+          "discount": "Discount"
+        },
+        "cryptoLoans": {
+          "title": "Crypto Loans"
+        },
+        "reputationTooltip": "You are ranked better than {{reputation}}% of your peers.",
+        "discountTooltip": "Your good reputation reduces your borrow rate from {{before}}% to {{after}}%.",
+        "discountTooltip_zeroDiscount": "Discount not applicable, borrow rate is 0"
+      },
+      "history": {
+        "transfers": {
+          "title": "Withdraws / Deposits",
+          "tableHeadings": {
+            "direction": "Direction",
+            "type": "Type",
+            "quantity": "Quantity"
+          }
+        },
+        "bailouts": {
+          "title": "Bailouts",
+          "tableHeadings": {
+            "id": "Bailout ID"
+          }
+        }
+      },
+      "log": {
+        "showMore": "Show more",
+        "loading": "Loading...",
+        "activity": {
+          "title": "Recent activity",
+          "tableHeadings": {
+            "dateTime": "Time",
+            "account": "Account",
+            "action": "Action"
+          }
+        },
+        "bailout": {
+          "title": "Recent bailouts",
+          "subtitle": "(click rows to see details)",
+          "tableHeadings": {
+            "dateTime": "Time",
+            "account": "Account",
+            "action": "Action",
+            "debt": "Debt",
+            "collateral": "Collateral"
+          }
+        }
+      },
+      "blocked": {
+        "title": "This website is not available in your country"
+      },
+      "notFound": {
+        "title": "This page does not exist"
+      },
+      "tutorial": {
+        "name": "Tutorial",
+        "step1": "Become a lender by depositing crypto and get rewarded.",
+        "step2": "Deposit/Withdraw crypto anytime to participate in the Lending Pool. The Lending Pool is the source for supplying crypto loans (such as EOS) and also serves to \"insure\" all Vigor Protocol loans by absorbing bad debt.",
+        "step3": "By contributing to the Lending Pool you get VIG token as rewards. Your lender reward percentage represents the real time annualized rate of your VIG rewards.",
+        "step4": "Your lender rewards are deposited directly into your collateral straight from borrowers.",
+        "step5": "Here you can see the amount of tokens that you have contributed to the lending pool.",
+        "step6": "The Lending Pool contributes to the overall health of the Vigor lending platform. Your contribution to solvency represents your share contribution to that health and reflects the overall dollar value and volatility of your tokens in the Lending Pool. The value on the left is your share contribution to VIGOR loans. The value on the right is your share contribution to crypto loans, other than VIGOR.",
+        "step7": "As a Lender, you do assume some risk and this should be taken into account when deciding to contribute to the Lending Pool. When a user’s loan gets bailed out (collateral value falls below their loan value), both their collateral and debt get distributed to the Lenders. The amount of each is based on your contribution to solvency. For example: Lets say a user has an open loan of $100 worth of VIGOR and $150 worth of EOS token that is posted as their collateral. The moment that their collateral value falls below the minimum collateral ratio (maximum loan-to-value), they get bailed out.",
+        "step8": "If your contribution to solvency is 1.0% then you will receive 1.0% of that user’s collateral (EOS), reflected here.",
+        "step9": "You will also receive 1.0% of the user’s debt (VIGOR), reflected here. The VIGOR Protocol will attempt to recap (closeout) the debt that you receive from bailouts in following sequence:",
+        "step10": "1) If you have the debt token (VIGOR in this example) already deposited in the lending pool, then your portion of the debt (1 VIGOR)is deducted from the lending pool and destroyed to satisfy the debt. You still receive your portion of the collateral (EOS).",
+        "step11": "2) If you don’t have the debt token in the lending pool then some of your lending pool assets are moved to collateral to back the debt you receive. You can acquire VIGOR from exchange and repay it to close the debt and free up your collateral.",
+        "step12": "3)For Crypto Loans (Non-Vigor), If you have the debt token (EOS for example) deposited as collateral for VIGOR loans, then your portion of the debt is deducted from your collateral and destroyed to satisfy the debt."
+      }
+    }
+  },
+  "ko": {
+    "translation": {
+      "vigorStablecoin": "VIGOR 프로토콜",
+      "connectWallet": "월랫 연동",
+      "viewDashboard": "대시보드 확인",
+      "step": "다음단계",
+      "deposit": "입금",
+      "withdraw": "출금",
+      "borrowText": "대출",
+      "repay": "대출상환",
+      "debt": "대출금",
+      "collateral": "담보",
+      "loan": "대출",
+      "solvency": "솔벤시",
+      "amountOf": "수량의",
+      "amount": "수량",
+      "asset": "자산",
+      "percent": "퍼센트",
+      "noData": "없음",
+      "value": "가치",
+      "max": "최대",
+      "inWallet": "In Wallet",
+      "notLoggedIn": "아직 로그인 되지 않음",
+      "login": "로그인",
+      "logout": "로그아웃",
+      "walletBalances": "월렛 밸런스",
+      "cancel": "취소",
+      "confirm": "확인",
+      "done": "완료",
+      "faucet": "정글테스텟 계정 EOS 토큰받기신청",
+      "waitForSettlement": "사용자의 액션 셋팅이 준비 되었습니다",
+      "help": "도움",
+      "collateralRatio": "담보 비율",
+      "balance": "밸런스",
+      "resources": {
+        "Available": "이용가능한",
+        "Title": "타이틀",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "No Data",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "죄송합니다.뭔가 잘못된 부분이 있습니다",
+        "subtitle": "개발자에게 다음과 같은 오류 부분을 알려주세요"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "VIGOR DAC Constitution 서명",
+          "version": "버젼",
+          "hash": "해쉬",
+          "viewOnGithub": "깃허브 보기",
+          "vigorConstitutionOnGithub": "깃허브의 VIGOR DAC constitution 보기",
+          "submitButton": "constitution 서명",
+          "checkbox_readAndAgreedToConstitution": "저는 사용자 동의안 내용을 읽고 동의 합니다."
+        },
+        "disclaimer": {
+          "title": "리스크 공지",
+          "submitButton": "저는 리스크 부분을 읽고 동의 합니다",
+          "item1": "Lending은 리스크가 존재 합니다. Lender는 리워드는 받는 이유가 존재 합니다. 청산이 일어날 경우 플랫폼 보호 차원에서 청산되는 대출에 대해서 프로바이더 역할을 합니다. Bailout 청산 이벤트가 일어나는 동안에 Lender사용자들은 청산된 대출금과 대출에 대한 담보토큰역시 자동으로 받게 됩니다.청산은 어쩌면 소실 일수도 있습니다, 모든 Lender사용자들은 솔벤시에 각각 기여된 풀의 내용이 공유됨을 동의 합니다.Lender사용자들은 손실보다 수익을 추구하기를 원합니다.",
+          "item2": "만약에 eosio.rex가 90%풀 상태가 될경우에는 EOS의 rex리워드 수익이 중단이 될 수 있으며 또한 리퀴드 상태가 될려면 rex의 상태가 변동이 될 때까지 기다려야 할 수도 있습니다. reaches the 90% lent level, a liquidity crunch, then user may not be able to transact EOS until rex is liquid again. eosio core chain의 기능이 작동하지 않을 경우에 Vigor dapp역시 동일하게 중단이 될 수 도 있습니다.",
+          "item3": "모든 EOS디파짓 이용자들은 rex로 이동이 되어 리퀴드 상태가 될 때까지 5일을 기다려야 합니다. 따라서 사용자들이 EOS토큰을 인출을 할경우 충분한 리퀴드 상태의 토큰이 부족할 경우 rex로 이동한 토큰이 리퀴드 상태가 될때 가지 기다려야 할 상황이 있을 수도 있습니다.",
+          "item4": "랜딩 풀 대출에서 들어오는 토큰들이 모든 대출자들이 동시에 대출 할 수 있는 유동성이 충분하지 않을 경우가 있습니다.이경우 출금을 할경우 즉시 인출이 되지 않을 수 있습니다.랜딩 풀은 유동성을 유지하기위해 최대 대출 한도유지를 합니다.",
+          "item5": "Savings 사용자는VIGOR프로토콜에서 가장 낮은 리스크 계층 입니다. 그렇다고 해서 리스크가 없다는 의미는 아닙니다.Savers사용자들은 Lender/insurers사용자 층 및 파이널 리저브 마저 충당을 하지 못하는 상황일 경우 가장 나중에 청산을 담당하는 역할을 합니다.",
+          "item6": "대출이용자 들은 반드시 담보 비율을 {{bailoutCr}}% 이상 유지 해야만 합니다, 그렇지 않으면 청산으로 실행이 이루어 집니다. Bailout 청산의 의미는 대출사용자들의 대출과 그 대출에 대한 담보를 Lender사용자 들에게 전달이 됨을 사전에 동의 합니다.",
+          "note": "PLEASE NOTE: Vigor 프로토콜 과 스마트 컨트랙 은 완전하게 탈중앙화 되어 있습니다. 어느 개인의 소유도 유지 관리 및 개발 등등을 컨트롤 할 수 없습니다. 따라서 프로토콜을 사용함에 있어서 리스크는 모두 사용자에게 있음을 인지 하여야 합니다.프로토콜을 사용하면 모든 것을 잃을 수도 있습니다. 사용자의 자산이나 디지털 토큰의 부분적 또는 총 손실이 발생 할 경우 이 책임을 부담 할 실체나 사람이 존재 하지 않습니다. VIGOR 프로토콜을 사용하기 전에 꼭 주의 깊게 확인후 사용을 하세요.극히 드문 케이스이지만 사용자의 자산이나 디지털 토큰이 일정 기간 동안 동결 상태가 존재 할 수도 있습니다."
+        },
+        "userOpening": {
+          "title": "사용자 신규 계정 개설",
+          "body": "VIGOR 프로토콜은 하루에 신규 계정 개설을할 사용자 인원이 한정적입니다. 다음 기회에 신규계좌 계설이 가능 할 때 다시 신청 해주세요.",
+          "body2": "VIG토큰을 스테이킹하여 신규계좌 계설을 대기 하지 않는 방법이 존재 합니다.스테이킹한 VIG토큰은 30일 이후에 즉시 언스데이킹이 가능합니다.",
+          "stake": "스테이크"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "부족한 VIG 수수료 및 리워드 밸런스",
+          "yourBalance": "현재 VIG 수수료및 리워드 밸런스",
+          "agreeInitial": "사용자는 이 트랜잭션으로 지불해야할 수수료로 VIG토큰을 빌려가는 것에 동의를 합니다.",
+          "alternatively": "그리고나서 사용자가 직접 VIG Rewards & Fee Balance에 입금을 해야 합니다.",
+          "confirm": "네. 동의합니다"
+        },
+        "depositWithdrawFees": {
+          "title": "VIG Fees & Rewards Balance - 입금 / 출금"
+        }
+      },
+      "nav": {
+        "home": "홈",
+        "YourDashboard": "사용자 대쉬보드",
+        "Alerts": "알람기능",
+        "Health": "Vigor 현황상태",
+        "Borrow": "바로우",
+        "Earn": "리워드 받음",
+        "EarnInsure": "인슈어",
+        "EarnSaving": "세이빙",
+        "BorrowCrypto": "크립토",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "통계",
+        "StatsUsersMobile": "사용자 (모바일)",
+        "StatsMarkets": "마켓",
+        "StatsVIGORLoans": "대출 - VIGOR",
+        "StatsCryptoLoans": "대출 - Crypto"
+      },
+      "accountData": {
+        "constitutionSigned": "규약 서명",
+        "tooltips": {
+          "readyToGo": "사용 준비 완료!",
+          "thingsToDo_signConstitution": "사용자는 VIGOR를 사용하기 이전에 DAC constitution\n 서명을 해야 합니다"
+        }
+      },
+      "index": {
+        "header": "\n탈중앙된 바로우, 랜드, 그리고 세이브로 구성이 된 자동화 대출로 이루어진 커뮤니티.",
+        "earn": "리워드",
+        "earnDescription": "사용자의 크립토 자산을 인슈어풀 혹은 트립토 세이빙으로 락업을 하여 VIG토큰을 리워드 받을 수 있습니다.",
+        "earnRateDescription": "리워드 이율",
+        "earnButton": "리워드 받기",
+        "borrow": "바로우",
+        "borrowDescription": "Lock up collateral to borrow VIGOR 토큰 혹은 다른 크립토 자산을 빌리기 위해서 담보를 락업 하세요.",
+        "borrowRateDescription": "대출 이율",
+        "borrowButton": "바로우 시작"
+      },
+      "alerts": {
+        "authenticate": "인증",
+        "settingsFailed": "세팅을 불러오지 못합니다",
+        "retry": "재시도",
+        "setup": "알림 셋업",
+        "notifyAt": "담보비율 알림",
+        "attachTelegram": "텔레그램 연동",
+        "verify": "확인",
+        "enable": "알림 사용",
+        "updateSettings": "세팅 업데이트",
+        "title": "알림",
+        "subtitle": "청산위험 이전 알림 설정"
+      },
+      "health": {
+        "earnDescription": "인슈어 혹은 세이빙에 크립토를 예치후 VIG토큰 리워드 받기.",
+        "borrowDescription": "VIGOR 혹은 다른 크립토 대출.",
+        "vigorHealth": "VIGOR 헬스",
+        "inReserve": "리저브",
+        "inReserve_tooltip": "리저브...",
+        "totalBorrowed": "토탈 대출수량",
+        "totalBorrowed_tooltip": "토탈 대출수량...",
+        "vigPrice": "VIG 가격",
+        "vigPrice_tooltip": "VIG 가격....",
+        "vigorSupply": "VIGOR 공급수량",
+        "vigorSupply_tooltip": "VIGOR 공급수량...",
+        "totalCollateralVal": "토탈 담보 가치",
+        "totalCollateralVal_tooltip": "토탈 담보 가치...",
+        "totalInsurance": "토탈 인슈어",
+        "totalInsurance_tooltip": "토탈 인슈어...",
+        "totalDebt": "토탈 대출금",
+        "totalDebt_tooltip": "토탈 대출금...",
+        "solvency": "솔벤시",
+        "solvency_tooltip": "낮은 변동성 토큰을 뒷받침하는 자본의 기여도를 나타내는 정도",
+        "global": "글로벌 뷰",
+        "finalReserve": "파이널 리저브",
+        "rate": "Rate",
+        "charts": {
+          "borrowRates": "대출 이율",
+          "borrowInfo": "VIGOR 대출이율은 크립토 대출의 수요와 공급에 의해 변동적입니다. 새로운 대출금이나 대출을 위함 자금이 들어올때 마다 실시간으로 온체인에서 스트레스 테스트가 이루어지고 대출금리는 자본의 요건에 따라 솔벤시(지불 능력)를 유지 하기 위해서 업데이트가 이루어 집니다.",
+          "borrowVigor": "VIGOR 대출",
+          "borrowCrypto": "크립토 대출"
+        }
+      },
+      "earn": {
+        "insureTitle": "랜더 시작",
+        "insureDescription": "랜더는 크립토와 VIGOR토큰을 인슈어 풀에 입금하여 시스템에서 불안정한 마켓  스트레스 이벤트에 대한 보험에 가입하는 것과 비슷하며 이러한 리스크에 대해서 VIG 토큰으로 보상을 받게 됩니다.",
+        "insureButton": "인슈어 론",
+        "savingsTitle": "세이빙",
+        "savingsDescription": "VIGOR 토큰을 락업하고 세이빙 이율에 대한 리워드를 받습니다.",
+        "savingsButton": "세이빙 시작"
+      },
+      "earnInsure": {
+        "title": "랜드",
+        "subtitle": "인슈어풀에 예치,리워드 받기",
+        "insuranceValue": "인슈어 가치",
+        "insuranceAmount": "인슈어 수량",
+        "availableAmount": "이용가능한 수량",
+        "earningRate": "리워드 이율",
+        "tableTitle": "인슈어 사용자"
+      },
+      "earnSavings": {
+        "title": "세이빙",
+        "subtitle": "VIGOR토큰을  세이빙풀에 예치하여 자산을 보호 받으면서 VIG토큰을 리워드 받을수 있습니다",
+        "totalSavingsVigorValue": "세이빙 가치",
+        "tableTitle": "당신의 세이빙"
+      },
+      "borrow": {
+        "stableTitle": "낮은 변동성 론",
+        "stableDescription": "VIGOR론을 이용하기 위해서 크림토 자산을 디파짓 하세요.론 사용 기간동안 VIG토큰으로 지불하게 됩니다.",
+        "cryptoTitle": "크립토 론",
+        "cryptoDescription": "크립토를 대출받기 위해서 VIGOR를 담보로 디파짓 하세요. 사용기간동안 VIG토큰으로 지불하게 됩니다.",
+        "startLoan": "대출 시작"
+      },
+      "borrowVigor": {
+        "title": "VIGOR 론",
+        "step1Description": "VIGOR론을 위해서 크림토 자산을 담보로 예치 하세요.",
+        "step2Description": "VIGOR론을 이용하기 이전 VIG토큰을 먼저 VIG사용지불을 위해 디파짓 해주세요,론 사용료 지불은 자동으로 이루어 집니다.",
+        "step3Description": "VIGOR 토큰을 인출하여 대출을 시작하세요.",
+        "step4Description": "Bailout(청산이벤트)의 대상을 피하기 위해서 항상 적절한 수량의 VIG토큰을 유지해 주세요.",
+        "step1": {
+          "pageTitle": "담보 예치",
+          "tableTitle": "사용자 담보",
+          "cryptoCollateral": "크립토 담보",
+          "depositCollateral": "담보 예치"
+        },
+        "step2": {
+          "pageTitle": "VIG 입금",
+          "tableTitle": "사용자의 VIG 토큰 & 지불된 밸런스",
+          "vigCollateral": "VIG 담보"
+        },
+        "step3": {
+          "totalCollateral": "토탈 담보",
+          "pageTitle": "VIGOR 대출/대출 상환",
+          "tableTitle": "사용자 VIGOR",
+          "interestRate": "예상 대출 이율",
+          "estimatedVig": "1달기준 예상 사용료",
+          "loanNote": "*대출금리는 변동금리이며 대출 이자율은 대출된(솔벤시)대출수량과 크립토 신용평점 및 담보가치에 따라 다르게 적용이 됩니다."
+        }
+      },
+      "borrowCrypto": {
+        "title": "크립토 대출",
+        "step1Description": "크립토 대출을 위해 VIGOR를 담보로 입금 하세요.",
+        "step3Description": "대출을 시작하기 위해서 크립토 토큰을 인출 하세요.",
+        "step1": {
+          "vigorCollateral": "VIGOR 담보"
+        },
+        "step3": {
+          "pageTitle": "크립토 대출/상환",
+          "tableTitle": "사용자 크립토",
+          "cryptoInWallet": "월렛에 크립토",
+          "cryptoDebt": "크립토 대출금"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "보내기 완료!"
+      },
+      "overlay": {
+        "waiting": "인증 대기중...",
+        "success": "성공",
+        "error": "거래 실패"
+      },
+      "footer": {
+        "version": "버젼",
+        "poweredBy": "Powered by",
+        "copyright": "Copyright © VIGOR DAC Ltd. 2020",
+        "disclaimer": "리스크 공지",
+        "termsConditions": "용어 & 조건",
+        "privacyPolicy": "개인정보 보호"
+      },
+      "user": {
+        "fees": {
+          "title": "VIG 사용료 & 리워드",
+          "vigRewards": "VIG 리워드",
+          "vigRewardsToolTip": "랜딩 + 세이빙 리워드",
+          "eosRewards": "EOS 리워드",
+          "eosRewardsToolTip": "투표 프록시 + 렉스 리워드",
+          "vigorRewards": "VIGOR 리워드",
+          "vigorRewardsToolTip": "렌딩풀에 예치후 VIG토큰을 리워드 받기",
+          "feesPaid": "지불된 수수료",
+          "feesPaidToolTip": "대출에 지불된 프리미엄수수료"
+        },
+        "poolContribution": "풀의 기여",
+        "solvencyContribution": "솔벤시(지불능력)기여",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- 거래 한도 초과!",
+          "ExceedWdLimit": "- 출금 한도 초과!",
+          "ExceedAccountValueLimit": "- 계정의 한도 초과!"
+        },
+        "donut": {
+          "ok": "오케이",
+          "ratio": "담보 비율",
+          "liquidation": "청산",
+          "danger": "위험"
+        },
+        "lend": {
+          "title": "랜드",
+          "reward": "랜드 리워드",
+          "insurance": "{{token}} 인슈어",
+          "pctsTooltip": "사용자의 VIGOR대출과  크립토 대출의 지불 능력에 대한 기여도.",
+          "lendRewardTooltip": "리워드는 개개인의 지불능력에 대한 기여도에 따라 다릅니다."
+        },
+        "vault": {
+          "title": "세이빙",
+          "inVault": "{{token}} 세이빙",
+          "reward": "세이빙 리워드",
+          "pctsTooltip": "사용자의 VIGOR 세이빙 풀에 대한 기여도"
+        },
+        "vigorLoans": {
+          "title": "VIGOR 대출",
+          "borrowRate": "대출 이율",
+          "reputation": "신용평점",
+          "discount": "이용 수수료 할인"
+        },
+        "cryptoLoans": {
+          "title": "크립토 대출"
+        },
+        "reputationTooltip": "당신은 다른사람의 {{신용 평점}}% 보다 좋은 등급을 유지 하고 있습니다.",
+        "discountTooltip": "사용자의 좋은 신용폄정은 {{이전}}% 보다  {{이후}}%로 사용료 지불의 할인을 적용 받습니다.",
+        "discountTooltip_zeroDiscount": "할인 적용 불가,대출이용 금액이 0입니다"
+      },
+      "log": {
+        "showMore": "더 보기",
+        "loading": "로딩중...",
+        "activity": {
+          "title": "최근 활동",
+          "tableHeadings": {
+            "dateTime": "시간",
+            "account": "계정",
+            "action": "액션"
+          }
+        },
+        "bailout": {
+          "title": "최근 Bailout(구제금융) 리스트",
+          "subtitle": "(상세내역 확인)",
+          "tableHeadings": {
+            "dateTime": "시간",
+            "account": "계정",
+            "action": "액션",
+            "debt": "대출금",
+            "collateral": "담보"
+          }
+        }
+      },
+      "blocked": {
+        "title": "이 웹사이트는 접속한 사용자의 국가에 지원이 되지 않습니다"
+      },
+      "notFound": {
+        "title": "이페이지는 존재 하지 않습니다"
+      },
+      "tutorial": {
+        "name": "튜토리얼",
+        "step1": "크립토 자산을 디파짓하고 VIG토큰을 리워드 받아 보세요.",
+        "step2": "랜딩풀에 참여하는 기간중에는 언제든지 크립토자산의 입금/인출이 가능합니다.랜딩풀은 (EOS와 같은)크립토 대출을 공급하는 역할을 하며 인슈어 서비스와 같이 사용이 되어 모든 VIGOR 프로토콜 론의 부실 대출금을 인수 하는 역할을 담당 합니다.",
+        "step3": "랜딩 풀을 이용하는 사용자들은 VIG토큰을 리워드 받습니다. 랜딩 리워드 이율은 실시간으로 변동이 되며 VIG리워드 이율에서 확인 할 수 있습니다.",
+        "step4": "랜더 사용자들의 리워드는 대출자들이 지불된 사용료에서 직접이동이 되어 랜더사용자의 담보로 지급을 받습니다.",
+        "step5": "랜딩풀에 기여한 토큰의 비율을 확인 할 수 있습니다.",
+        "step6": "랜딩풀을 이용하는것은 전반적으로 VIGOR 랜딩 플랫폼에 건전성의 커버에 기여하는 역할을 합니다.솔벤시(지불능력)에 대한 사용자 기여도는 사용자 토큰의 전반적인 건전성을 토대로 달러 가치와 변동성으로 반영하여 보여지게 됩니다.왼쪽은 VIGOR론의 대한 사용자의 기여도%이며 오른쪽은 VIGOR외의 크립토론의 기여도%에 대한 것 입니다.",
+        "step7": "랜더 사용자로서 볼때 사용자는 랜딩풀에 자산을 디파짓함으로서 리스크를 이미 인지하고 있다는 것을 의미를 하며 그 리스크에 대한 보상으로 VIG토큰을 리워드 받는 사용자 커뮤니티 입니다.대출 사용자들의 대출금이 Bailout(구제금융)이 일어날때 랜더들은 대출금과 대출금에 상응하는 담보와 함께 모두 인수하게 됩니다.인수하는 대출과 담보는 각각 랜딩풀에 기여한 사용자의 퍼센트에 비례해서 자동으로 분배 됩니다.예를 들어서 만약에 100달러 상당의 VIGOR론 대출을 받고 그 담보로 EOS토큰을 넣었다고 가정해 보겠습니다.담보로 넣은 대출에 대한 담보가 VIGOR대출론 보다 낮아지게 되면 Bailout(구제금융)이벤트가 시작됩니다.",
+        "step8": "사용자의 솔벤시(지불능력)의 기여도가 1.0%라면, 대출금 사용자의 담보(EOS 토큰일경우)의 1.0%를 받게 된다는 의미 입니다.그 비율의 반영이 되는 것입니다.",
+        "step9": "랜딩 사용자는 담보와 더불어서 솔벤시에 반영된 사용자 부채(VIGOR)의 1.0%도 받게 됩니다.VIGOR 프로토콜에서 Bailout(구제금융)을 받는 사용자들은  받은 부채는 리캡을 하기 위해서 사용자들이 활용을 할 것입니다.",
+        "step10": "1) 이미 대출 풀에 디파짓되어 있는 상태에서 대출금 토큰(예들들어 VIGOR)가지고 있다면, 부채의 일부분(1VIGOR)은 대출 풀에서 공제되어 대출금를 충족시키기 위해 사용이 되지만,대출을 이용하는 사용자들은 공제하고 남는 담보(EOS)가 존재 할 경우 받게 됩니다.",
+        "step11": "2) 만약 사용자가 랜딩풀에 자산이 있고 대출금이 존재 하지 않는 경우에는 사용자의 랜딩 풀 자산은 대출금을 커버하기 위해서 사용이 되며 대출자의 대출금과 그대출에 대한 담보를 인수 합니다. 그이후 사용자는 인수한 대출금을 갚기 위해서 마켓에서 VIGOR를 구입하여 즉시 상환이 가능하게 됨으로 인수받은 빚을 청산 할 수 있으며,또한 인수받은 담보는 언제든지 자유롭게 활용이 가능합니다.",
+        "step12": "3)크립토 대출(VIGOR제외)의 경우,VIGOR를 담보로 사용을 할경우 EOS대출금이 있을경우에는 사용자가 제공한 담보에서 대출금을 공제하고 사용된 부채를 충족시키기 위해 사용이 됩니다."
+      }
+    }
+  },
+  "zh": {
+    "translation": {
+      "vigorStablecoin": "Vigor 协议",
+      "connectWallet": "连接钱包",
+      "viewDashboard": "查看仪表板",
+      "step": "步骤",
+      "deposit": "存币",
+      "withdraw": "提币",
+      "borrowText": "借币",
+      "repay": "偿还",
+      "debt": "债务",
+      "collateral": "抵押物",
+      "loan": "贷款",
+      "solvency": "偿付能力",
+      "amountOf": "数量",
+      "amount": "数量",
+      "asset": "资产",
+      "percent": "占比",
+      "noData": "无数据",
+      "value": "值",
+      "max": "最高",
+      "inWallet": "钱包中",
+      "notLoggedIn": "未登录",
+      "login": "登录",
+      "logout": "登出",
+      "walletBalances": "钱包余额",
+      "cancel": "取消",
+      "confirm": "确认",
+      "done": "完成",
+      "faucet": "Jungle Faucet",
+      "waitForSettlement": "你的操作正在结算中",
+      "help": "帮助",
+      "collateralRatio": "抵押比率",
+      "balance": "余额",
+      "resources": {
+        "Available": "可用",
+        "Title": "标题",
+        "CPU": "计算",
+        "RAM": "内存",
+        "NET": "网络",
+        "NoData": "无资料",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "抱歉，系统出错",
+        "subtitle": "请向我们提交此问题，并提供下方信息"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "签署 VIGOR DAC 宪法",
+          "version": "版本",
+          "hash": "哈希",
+          "viewOnGithub": "前往 Github 查看",
+          "vigorConstitutionOnGithub": "前往 Github 查看 VIGOR DAC 宪法",
+          "submitButton": "签署宪法",
+          "checkbox_readAndAgreedToConstitution": "我已阅读并同意宪法条款"
+        },
+        "disclaimer": {
+          "title": "风险披露",
+          "submitButton": "我了解",
+          "item1": "贷款具备一定风险：当贷款遭到清算时，贷款方将保释贷款。在清算时，贷款方将接收贷款和与其挂钩的抵押资产。清算是有可能会造成损失，将由所有贷款方共同承担，承担的比例根据对偿付能力的贡献而定。贷款方希望获得贷款奖励的收入能高过保释遭受的损失。",
+          "item2": "如果 eosio.rex 达到 90% 借出率，主网可能进入阻塞状态，这个时候用户在 EOS 上的操作会出现延迟或失败，当 EOS 主网运行出问题时，Vigor 平台服务有可能会中断。",
+          "item3": "所有EOS都将存入REX，五天后才能变成流动性。如果有任何可用的EOS，用户可以立即撤回。若不是，则用户需要等待REX下一个到期日期。",
+          "item4": "由于借贷池借出代币导致剩余流动性不足，因此贷方都无法同时提取。 贷款池将强制实施最大贷款限额，以维持流动性。",
+          "item5": "储值是风险最小的投资选择，除非所有所有贷方/保险公司都被淘汰，准备金失效，用户才可能蒙受损失。",
+          "item6": "借款人必须将抵押率保持在100％以上，否则借款人将被清算，这将会导致借款人的债务和相等数量的抵押品（如果有）都归贷方所有。",
+          "note": "Vigor协议和智能合约完全去中心化，没有单一所有者、维护者、开发者和控制者。因此，在Vigor的投资风险完全由用户自行承担：若投资失误则可能失去一切。因此，在使用该协议之前，请用户仔细考虑，根据自身经济能力参与投资。 在极少数情况下，您的资产或代币可能会出现短时间不可访问状态的状态。"
+        },
+        "userOpening": {
+          "title": "创建新账户",
+          "body": "VIGOR 协议每天提供限量的免费账户，请稍晚再回来看是否有免费账户名额。如想立即创建新账户，请抵押 VIG 代币。",
+          "body2": "通过抵押 VIG 代币，你可以立即创建新账户，抵押的代笔可在 30 天后赎回。",
+          "stake": "抵押"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "VIG费用&奖励余额不足",
+          "yourBalance": "当前的VIG费用和奖励余额:",
+          "agreeInitial": "通过此交易，您将借入一些VIG（用于支付费用）。",
+          "alternatively": "您也可以选择手动将VIG代币存入您的VIG奖励和费用余额",
+          "confirm": "是的，借入VIG"
+        },
+        "depositWithdrawFees": {
+          "title": "VIG费用&奖励余额-存款/取款"
+        }
+      },
+      "nav": {
+        "home": "主页",
+        "YourDashboard": "您的操作中心",
+        "Alerts": "快讯",
+        "Health": "Vigor 健康值",
+        "Borrow": "借款",
+        "Earn": "领取奖励",
+        "EarnInsure": "保险",
+        "EarnSaving": "储蓄",
+        "BorrowCrypto": "加密货币",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "统计",
+        "StatsUsersMobile": "用户（移动端）",
+        "StatsMarkets": "市场",
+        "StatsVIGORLoans": "贷款-VIGOR",
+        "StatsCryptoLoans": "贷款-加密货币"
+      },
+      "accountData": {
+        "constitutionSigned": "签署宪法",
+        "tooltips": {
+          "readyToGo": "准备好了吗！",
+          "thingsToDo_signConstitution": "使用VIGOR前，您需要签署DAC宪法。"
+        }
+      },
+      "index": {
+        "header": "去中心化自动借款、贷款以及储蓄业务。",
+        "earn": "奖励",
+        "earnDescription": "您可以通过锁定加密货币锁定在保险池中以支持贷款或锁定Vigor在加密货币储蓄账户中，来获取VIG代币奖励。",
+        "earnRateDescription": "收益率高达",
+        "earnButton": "领取奖励",
+        "borrow": "借款",
+        "borrowDescription": "锁定抵押品以借入VIGOR令牌或其他加密货币。",
+        "borrowRateDescription": "收益率低至",
+        "borrowButton": "开始借款"
+      },
+      "alerts": {
+        "authenticate": "认证",
+        "settingsFailed": "无法加载设置",
+        "retry": "重试",
+        "setup": "设置通知",
+        "notifyAt": "抵押比例通知",
+        "attachTelegram": "加入电报",
+        "verify": "校验",
+        "enable": "启用通知",
+        "updateSettings": "更新设置",
+        "title": "快讯",
+        "subtitle": "清算预警通知"
+      },
+      "health": {
+        "earnDescription": "作为保险公司或以加密货币储蓄方式获得VIG奖励。",
+        "borrowDescription": "借入VIGOR或其他加密货币。",
+        "vigorHealth": "VIGOR 健康值",
+        "inReserve": "储值中",
+        "inReserve_tooltip": "储值中...",
+        "totalBorrowed": "借款总额",
+        "totalBorrowed_tooltip": "借款总额...",
+        "vigPrice": "VIG 价格",
+        "vigPrice_tooltip": "VIG 价格...",
+        "vigorSupply": "VIGOR 供应量",
+        "vigorSupply_tooltip": "VIGOR 供应量...",
+        "totalCollateralVal": "总抵押价值",
+        "totalCollateralVal_tooltip": "总抵押价值...",
+        "totalInsurance": "保险总额",
+        "totalInsurance_tooltip": "保险总额...",
+        "totalDebt": "债务总额",
+        "totalDebt_tooltip": "债务总额...",
+        "solvency": "偿付能力",
+        "solvency_tooltip": "有足够的能力支持低波动性代币",
+        "global": "全局总览",
+        "finalReserve": "最终储值",
+        "rate": "收益率",
+        "charts": {
+          "borrowRates": "借款收益率",
+          "borrowInfo": "VIGOR借款收益率反映了加密货币借贷的供求关系。 对于每笔新的借入或借出，压力测试都会在链上实时进行，并且借贷利率会更新，以使偿付能力与借款需求保持一致。",
+          "borrowVigor": "借入VIGOR",
+          "borrowCrypto": "借入加密货币"
+        }
+      },
+      "earn": {
+        "insureTitle": "成为贷款人",
+        "insureDescription": "将加密货币和VIGOR代币存入保险池，贷方可获得VIG代币奖励，以确保系统免受上行和下行市场压力事件的影响。",
+        "insureButton": " 保险贷款",
+        "savingsTitle": "储值",
+        "savingsDescription": "锁定VIGOR代币并获得收益",
+        "savingsButton": "开始储存"
+      },
+      "earnInsure": {
+        "title": "借款",
+        "subtitle": " 保险存款，获得奖励",
+        "insuranceValue": " 保险价值",
+        "insuranceAmount": " 保险金额",
+        "availableAmount": " 可用金额",
+        "earningRate": "收益率",
+        "tableTitle": " 你的保险"
+      },
+      "earnSavings": {
+        "title": "储值",
+        "subtitle": " 将VIGOR存入一个受保护的储蓄池，并获得VIG奖励",
+        "totalSavingsVigorValue": " 储存价值",
+        "tableTitle": " 你的存款"
+      },
+      "borrow": {
+        "stableTitle": "低波动性贷款",
+        "stableDescription": "抵押加密货币获得VIGOR代币贷款。使用VIG代币支付贷款溢价。",
+        "cryptoTitle": " 加密货币贷款",
+        "cryptoDescription": "抵押VIGOR获得加密货币贷款。使用VIG代币支付贷款溢价。",
+        "startLoan": " 开始新贷款"
+      },
+      "borrowVigor": {
+        "title": " VIGOR贷款",
+        "step1Description": " 存入加密货币作为贷款抵押品。",
+        "step2Description": " 存入VIG代币用于支付贷款溢价。",
+        "step3Description": " 赎回VIGOR代币启动贷款。",
+        "step4Description": " 为了清算，请保留足够的抵押品和VIG代币。",
+        "step1": {
+          "pageTitle": "存款抵押",
+          "tableTitle": " 你的抵押",
+          "cryptoCollateral": "加密抵押",
+          "depositCollateral": "存款抵押"
+        },
+        "step2": {
+          "pageTitle": "存入VIG",
+          "tableTitle": " VIG费用余额",
+          "vigCollateral": " VIG抵押"
+        },
+        "step3": {
+          "totalCollateral": " 总抵押",
+          "pageTitle": " VIGOR借款/还款",
+          "tableTitle": "你的 VIGOR",
+          "interestRate": " 预估借款率",
+          "estimatedVig": " 预估保费（1个月）",
+          "loanNote": "*贷款有浮动利率，没有期限。利率根据偿付能力而定，和您的加密信用分数的不同而变化。"
+        }
+      },
+      "borrowCrypto": {
+        "title": " 加密货币贷款",
+        "step1Description": " 存款VIGOR作为您贷款的抵押品。",
+        "step3Description": " 赎回您的加密货币以启动贷款。",
+        "step1": {
+          "vigorCollateral": " VIGOR抵押品"
+        },
+        "step3": {
+          "pageTitle": " 加密货币借款/还款",
+          "tableTitle": "你的加密货币",
+          "cryptoInWallet": " 钱包里的加密货币",
+          "cryptoDebt": " 加密货币债务"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": " 交易已发送！"
+      },
+      "overlay": {
+        "waiting": "身份认证中，请稍等...",
+        "success": " 签名成功！",
+        "error": " 交易失败！"
+      },
+      "footer": {
+        "version": "版本",
+        "poweredBy": " 技术支持",
+        "copyright": "Copyright (c) VIGOR DAC Ltd. 2020",
+        "disclaimer": " 风险说明",
+        "termsConditions": " 条款及细则",
+        "privacyPolicy": " 隐私说明"
+      },
+      "user": {
+        "fees": {
+          "title": "VIG费用&奖励",
+          "vigRewards": " VIG奖励",
+          "vigRewardsToolTip": " 贷款+储蓄奖励",
+          "eosRewards": " EOS奖励",
+          "eosRewardsToolTip": "投票+REX奖励",
+          "vigorRewards": " VIGOR奖励",
+          "vigorRewardsToolTip": " 存入贷款池的VIG奖励",
+          "feesPaid": " 已支付费用",
+          "feesPaidToolTip": "为贷款支付的保险费"
+        },
+        "poolContribution": "贡献.",
+        "solvencyContribution": "贡献",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": " 超过交易限额！",
+          "ExceedWdLimit": " 超过赎回限额！",
+          "ExceedAccountValueLimit": " 超过账户价值限额！"
+        },
+        "donut": {
+          "ok": "Ok",
+          "ratio": "抵押比率",
+          "liquidation": "清算",
+          "danger": "风险"
+        },
+        "lend": {
+          "title": "借",
+          "reward": " 贷方奖励",
+          "insurance": " {{代币}} 保险",
+          "pctsTooltip": "对VIGOR和加密货币贷款偿付能力的贡献。",
+          "lendRewardTooltip": " 收益取决于您个人对偿付能力的贡献。"
+        },
+        "vault": {
+          "title": "存款",
+          "inVault": " 存款中的{{token}} ",
+          "reward": "存款奖励",
+          "pctsTooltip": " 你对Vigor存款池的贡献"
+        },
+        "vigorLoans": {
+          "title": " VIGOR贷款",
+          "borrowRate": " 借款利率",
+          "reputation": "信誉",
+          "discount": "折扣"
+        },
+        "cryptoLoans": {
+          "title": " 加密货币贷款"
+        },
+        "reputationTooltip": " 您的排名比同等级的{{信誉}}％高。",
+        "discountTooltip": " 由于您的信誉良好，您的借入利率从{{before}}％降低到{{after}}％。",
+        "discountTooltip_zeroDiscount": " 折扣不适用，借入利率为0"
+      },
+      "log": {
+        "showMore": "显示更多",
+        "loading": "加载中...",
+        "activity": {
+          "title": " 最近的活动",
+          "tableHeadings": {
+            "dateTime": "时间",
+            "account": "账户",
+            "action": "操作"
+          }
+        },
+        "bailout": {
+          "title": " 最近的清算",
+          "subtitle": "（点击查看详情）",
+          "tableHeadings": {
+            "dateTime": "时间",
+            "account": "账户",
+            "action": "操作",
+            "debt": "债务",
+            "collateral": "抵押品"
+          }
+        }
+      },
+      "blocked": {
+        "title": " 对不起，本网站暂不支持该地区"
+      },
+      "notFound": {
+        "title": "页面不存在"
+      },
+      "tutorial": {
+        "name": "步骤详解",
+        "step1": " 存入加密货币成为贷方，并获得奖励。",
+        "step2": " 贷款池的加密货币可以随时存入/提取，贷款池是提供加密贷款（例如EOS）的来源，并且还通过吸收坏账来确保所有Vigor协议贷款。",
+        "step3": "参与贡献贷款池可以获得VIG代币奖励。此奖励即为VIG奖励的实时年化收益率。",
+        "step4": " 您的贷方奖励直接来源于借款人。",
+        "step5": " 您可以在这里查看您为借贷池提供的代币数量。",
+        "step6": "贷款池有助于Vigor贷款平台的整体健康发展。 您对偿付能力的贡献代表您对该健康状况的份额贡献，并反映出借出池中代币的锁定价值和波动性。 左侧是您对VIGOR贷款的出资额。 右侧是您对VIGOR以外的加密货币贷款的出资额。",
+        "step7": "贷款人可能需要承担一些风险。当用户的贷款得到保释（抵押物价值低于其贷款价值）时，其抵押物和债务都将分配给贷款人。每笔金额均基于您对偿付能力的贡献。例如：假设用户有一笔价值100美元的VIGOR和价值150美元的EOS代币的公开贷款作为抵押。 当抵押物价值低于其贷款价值时，他们便会被清算。",
+        "step8": "如果您的偿付能力贡献为1.0％，那么您将获得该用户抵押物的1.0％（EOS）。",
+        "step9": "您还将获得用户债务的1.0％（VIGOR）。VIGOR协议将尝试按以下顺序清算您收到的债务：",
+        "step10": " 1）如果您已将债务代币（以VIGOR为例）存放在贷款池中，则将从贷款池中扣除部分债务并销毁以偿还债务。 您仍然会收到抵押物（EOS）的一部分。",
+        "step11": " 2）如果您在借贷池中没有债务代币，那么您的某些借贷池资产将移至抵押物，用以清算您的债务。您可以通过交易所获得VIGOR，并清偿债务、释放抵押物。",
+        "step12": "对于加密贷款（非VIGOR），如果您将债务代币（例如EOS）作为VIGOR贷款的抵押品存放，则您的部分债务将从抵押品中扣除并销毁以偿还债务。"
+      }
+    }
+  },
+  "fr": {
+    "translation": {
+      "vigorStablecoin": "Protocole Vigor",
+      "connectWallet": "Connecter le portefeuille",
+      "viewDashboard": "Voir tableau de bord",
+      "step": "Étape",
+      "deposit": "Dépôt",
+      "withdraw": "Retrait",
+      "borrowText": "Emprunter",
+      "repay": "Rembourser",
+      "debt": "Dette",
+      "collateral": "Garantie",
+      "loan": "Prêt",
+      "solvency": "Solvabilité",
+      "amountOf": "Montant de",
+      "amount": "Montant",
+      "asset": "Actif",
+      "percent": "Pourcentage",
+      "noData": "n/a",
+      "value": "Valeur",
+      "max": "Max.",
+      "inWallet": "Dans le portefeuille",
+      "notLoggedIn": "Pas encore connecté",
+      "login": "Se connecter",
+      "logout": "Se déconnecter",
+      "walletBalances": "Solde du portefeuille",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "done": "Terminé",
+      "faucet": "Faucet",
+      "waitForSettlement": "Vos actions sont en train d'être réglées",
+      "help": "Aide",
+      "collateralRatio": "Ratio de garantie",
+      "balance": "Solde",
+      "resources": {
+        "Available": "Disponible",
+        "Title": "Titre",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "Pas de données",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "Désolé, quelque chose s'est mal passé",
+        "subtitle": "Veuillez signaler cette erreur avec les données suivantes aux développeurs"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "Signer la constitution de VIGOR DAC",
+          "version": "Version",
+          "hash": "Empreinte",
+          "viewOnGithub": "Voir sur Github",
+          "vigorConstitutionOnGithub": "Voir la constitution de VIGOR DAC sur Github",
+          "submitButton": "Signer la constitution",
+          "checkbox_readAndAgreedToConstitution": "J'ai lu et j'accepte les termes de la constitution."
+        },
+        "disclaimer": {
+          "title": "Divulgation des risques",
+          "submitButton": "Je comprends",
+          "item1": "Le prêt n'est pas sans risque. Les prêteurs sont récompensés pour une raison. Les prêteurs offrent une protection de sauvetage pour les prêts qui sont liquidés. Lors d'un renflouement (bailout), les prêteurs reçoivent automatiquement la dette liquidée et tous les jetons de garantie associés. Le produit du renflouement (bailout) est éventuellement une perte nette, partagée par tous les prêteurs en fonction du pourcentage de contribution à la solvabilité. Les prêteurs espèrent gagner plus en récompenses de prêt qu'ils ne perdent au produit net du sauvetage.",
+          "item2": "Si eosio.rex atteint le niveau de 90 % des prêts, une crise de liquidité, alors l'utilisateur pourrait ne pas pouvoir effectuer de transactions EOS tant que rex n'est pas à nouveau liquide. Si les fonctionnalités de la chaîne principale EOS ne fonctionnent pas, l'app Vigor peut ne pas fonctionner non plus.",
+          "item3": "Tous les dépôts EOS vont dans REX et attendent cinq jours pour devenir liquides. Les utilisateurs peuvent faire le retrait immédiat de tout EOS ayant atteint la maturité. Sinon, les utilisateurs doivent attendre la prochaine date d'échéance REX.",
+          "item4": "Comme le Pool de Prêt prête des jetons, il ne reste pas suffisamment de liquidités pour que tous les prêteurs puissent faire un retrait en même temps. Le Pool de Prêt applique une limite maximale de prêt pour tenter de maintenir la liquidité.",
+          "item5": "L'épargne est l'activité la moins risquée qui soit, mais elle n'est pas dénuée de risque. Les épargnants ne subiraient des pertes qu'en cas d'événement catastrophique après que tous les prêteurs/assureurs aient été éliminés et après que la réserve finale n'ait plus de capacité, car les épargnants sont les derniers recours.",
+          "item6": "Les emprunteurs doivent maintenir un ratio de garantie supérieur à 100 %, sinon ils sont envoyés en renflouement (bailout). Le renflouement (bailout) signifie que leur dette et un montant égal de garantie (si disponible) seront pris et donnés aux prêteurs.",
+          "note": "REMARQUE : Vigor Protocol et les Contrats Intelligents sont entièrement décentralisés, n'ont pas de propriétaire, de mainteneur, de développeur, de contrôleur uniques. Votre utilisation du Protocol est donc entièrement à vos propres risques et périls - VOUS POURRIEZ TOUT PERDRE EN UTILISANT LE PROTOCOL. Il n'y a aucune entité ou personne à laquelle recourir en cas de perte partielle ou totale d'actifs ou de jetons numériques. VEUILLEZ RÉFLÉCHIR ATTENTIVEMENT AVANT D'UTILISER LE PROTOCOL. Dans des circonstances extrêmement rares, il est possible que vos actifs ou jetons numériques restent inaccessibles pendant un certain temps. NE VERROUILLEZ JAMAIS DANS LES CONTRATS INTELLIGENTS ET DE VIGOR PROTOCOL , PLUS DE JETONS NUMÉRIQUES QUE VOUS NE POUVEZ VOUS PERMETTRE DE PERDRE ET/OU NE POUVEZ PAS ACCÉDER PENDANT UNE PÉRIODE PROLONGÉE."
+        },
+        "userOpening": {
+          "title": "Ouvrir un compte utilisateur",
+          "body": "VIGOR Protocol ne permet qu'un certain nombre d'ouvertures de comptes d'utilisateurs gratuits par jour. Revenez plus tard pour obtenir un compte gratuit ou déposer (stake) des VIG pour ouvrir votre compte dès maintenant.",
+          "body2": "Vous pouvez passer la période d'attente en déposant (staking) des VIG. Le dépot peut être retiré à nouveau après 30 jours.",
+          "stake": "Déposer (Stake)"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "Solde des frais et récompenses VIG insuffisant.",
+          "yourBalance": "Solde actuel des frais et récompenses VIG:",
+          "agreeInitial": "Vous acceptez d'emprunter des VIG - utilisés pour payer les frais - avec cette transaction.",
+          "alternatively": "Vous pouvez également déposer manuellement des VIG sur votre compte VIG récompenses & frais.",
+          "confirm": "Oui, emprunter VIG"
+        },
+        "depositWithdrawFees": {
+          "title": "Solde des frais & récompenses VIG - Dépôt/Retrait"
+        }
+      },
+      "nav": {
+        "home": "Home",
+        "YourDashboard": "Votre tableau de bord",
+        "Alerts": "Alertes",
+        "Health": "Vigor Health",
+        "Borrow": "Emprunter",
+        "Earn": "Soyez Récompensé",
+        "EarnInsure": "Assurer",
+        "EarnSaving": "Épargne",
+        "BorrowCrypto": "Crypto",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "Statistiques",
+        "StatsUsersMobile": "Utilisateur (Mobile)",
+        "StatsMarkets": "Marchés",
+        "StatsVIGORLoans": "Prêts - VIGOR",
+        "StatsCryptoLoans": "Prêts - Crypto"
+      },
+      "accountData": {
+        "constitutionSigned": "Constitution signée",
+        "tooltips": {
+          "readyToGo": "Tout est prêt !",
+          "thingsToDo_signConstitution": "Vous devez signer la constitution du DAC\n avant d'utiliser VIGOR"
+        }
+      },
+      "index": {
+        "header": "Communauté de prêt, d'emprunt et d'épargne.\n Prêt décentralisé et automatisé.",
+        "earn": "Récompenses",
+        "earnDescription": "Obtenir des récompenses en jetons VIG en verrouillant votre crypto dans un pool d'assurance pour soutenir des prêts ou en verrouillant Vigor dans un compte d'épargne crypto.",
+        "earnRateDescription": "Des taux aussi élevés que",
+        "earnButton": "Obtenir des récompenses",
+        "borrow": "Emprunter",
+        "borrowDescription": "Verrouiller les garanties pour emprunter des jetons VIGOR ou d'autres crypto-monnaies.",
+        "borrowRateDescription": "Des taux aussi bas que",
+        "borrowButton": "Commencer à emprunter"
+      },
+      "alerts": {
+        "authenticate": "Authentifier",
+        "settingsFailed": "Impossible de charger les paramètres",
+        "retry": "Réessayer",
+        "setup": "Configurer les notifications",
+        "notifyAt": "Notifier au ratio de garantie",
+        "attachTelegram": "Connectez Telegram",
+        "verify": "Vérifier",
+        "enable": "Activer les notifications",
+        "updateSettings": "Mettre à jour les paramètres",
+        "title": "Alertes",
+        "subtitle": "Recevoir une notification lorsque vous êtes proche d'un renflouement (bailout)"
+      },
+      "health": {
+        "earnDescription": "Obtenir des récompenses VIG en tant qu'assureur ou avec l'épargne de crypto.",
+        "borrowDescription": "Emprunter VIGOR ou d'autres crypto-monnaies.",
+        "vigorHealth": "VIGOR Santé",
+        "inReserve": "En Réserve",
+        "inReserve_tooltip": "En Réserve...",
+        "totalBorrowed": "Total emprunté",
+        "totalBorrowed_tooltip": "Total emprunté...",
+        "vigPrice": "Prix VIG",
+        "vigPrice_tooltip": "Prix VIG....",
+        "vigorSupply": "Offre VIGOR",
+        "vigorSupply_tooltip": "Offre VIGOR...",
+        "totalCollateralVal": "Valeur totale des garanties",
+        "totalCollateralVal_tooltip": "Valeur totale des garanties...",
+        "totalInsurance": "Total des assurances",
+        "totalInsurance_tooltip": "Total des assurances...",
+        "totalDebt": "Dette totale",
+        "totalDebt_tooltip": "Dette totale...",
+        "solvency": "Solvabilité",
+        "solvency_tooltip": "Représente l'adéquation des fonds propres pour soutenir le jeton de faible volatilité",
+        "global": "Vue d'ensemble",
+        "finalReserve": "Réserve finale",
+        "rate": "Taux",
+        "charts": {
+          "borrowRates": "Taux d'emprunt",
+          "borrowInfo": "Les taux d'emprunt de VIGOR reflètent l'offre et la demande de prêts crypto. À chaque nouvel emprunt ou prêt, des tests de résistance sont effectués en temps réel sur la chaîne et les taux de prêt sont mis à jour pour maintenir la solvabilité, en conformité avec les exigences de capital.",
+          "borrowVigor": "Emprunter VIGOR",
+          "borrowCrypto": "Emprunter Crypto"
+        }
+      },
+      "earn": {
+        "insureTitle": "Devenir prêteur",
+        "insureDescription": "Les prêteurs sont récompensés en jetons VIG pour avoir déposé des  des jetons Cryptos et VIGOR dans le pool d'assurance afin d'assurer le système contre les tensions du marché, tant à la hausse qu'à la baisse.",
+        "insureButton": "Assurer les prêts",
+        "savingsTitle": "Épargne",
+        "savingsDescription": "Verrouillez les jetons VIGOR et bénéficiez d'un taux d'épargne sur vos fonds.",
+        "savingsButton": "Commencer à épargner"
+      },
+      "earnInsure": {
+        "title": "Pêter",
+        "subtitle": "Déposer des assurances, soyez récompensé",
+        "insuranceValue": "Valeur de l'Assurance",
+        "insuranceAmount": "Montant de l'Assurance",
+        "availableAmount": "Montant disponible",
+        "earningRate": "Est. Taux de récompense",
+        "tableTitle": "Vos Assurances"
+      },
+      "earnSavings": {
+        "title": "Épargne",
+        "subtitle": "Déposer VIGOR dans un Coffre-fort Protégé et Obtenir des Récompenses VIG",
+        "totalSavingsVigorValue": "Valeur de l'Épargne",
+        "tableTitle": "Votre Épargne"
+      },
+      "borrow": {
+        "stableTitle": "Prêt à Faible Volatilité",
+        "stableDescription": "Déposer des crypto-monnaies en garantie pour contracter un prêt de jetons VIGOR. Payez les primes de prêt en jeton VIG.",
+        "cryptoTitle": "Prêt Crypto",
+        "cryptoDescription": "Déposer le jeton VIGOR comme garantie pour souscrire un prêt crypto. Payez les primes de prêt en jeton VIG.",
+        "startLoan": "Commencer un Nouveau Prêt"
+      },
+      "borrowVigor": {
+        "title": "Prêts VIGOR",
+        "step1Description": "Déposer de la crypto-monnaie en garantie de votre prêt.",
+        "step2Description": "Déposer des jetons VIG pour couvrir les primes d'emprunt. Les paiements des prêts se font automatiquement.",
+        "step3Description": "Faire le retrait du jeton VIGOR pour initier le prêt.",
+        "step4Description": "Pour éviter le renflouement (bailout) des prêts, conservez à tout moment une garantie adéquate et des jetons VIG.",
+        "step1": {
+          "pageTitle": "Déposer des Garanties",
+          "tableTitle": "Votre Garantie",
+          "cryptoCollateral": "Garantie Crypto",
+          "depositCollateral": "Déposer des Garanties"
+        },
+        "step2": {
+          "pageTitle": "Déposer VIG",
+          "tableTitle": "Votre Solde de Frais VIG",
+          "vigCollateral": "Garantie VIG"
+        },
+        "step3": {
+          "totalCollateral": "Garantie Totale",
+          "pageTitle": "Emprunter/Rembourser VIGOR",
+          "tableTitle": "Votre VIGOR",
+          "interestRate": "Taux d'emprunt estimé",
+          "estimatedVig": "Estimation des primes (1 mois)",
+          "loanNote": "*Les prêts sont à taux d'intérêt variables et sans durée. Les taux d'intérêt varient en fonction de la valeur de la garantie par rapport au montant emprunté (solvabilité) et de votre cote de crédit crypto."
+        }
+      },
+      "borrowCrypto": {
+        "title": " Prêts Crypto",
+        "step1Description": "Déposer VIGOR en garantie de votre prêt.",
+        "step3Description": "Faire le retrait de vos jetons cryptos pour initier le prêt.",
+        "step1": {
+          "vigorCollateral": " Garantie VIGOR"
+        },
+        "step3": {
+          "pageTitle": "Emprunter/Rembourser Crypto",
+          "tableTitle": "Votre Crypto",
+          "cryptoInWallet": "Crypto dans le Portefeuille",
+          "cryptoDebt": "Dette de Crypto"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "Transaction envoyée !"
+      },
+      "overlay": {
+        "waiting": "En attente d'authentificateur....",
+        "success": "Signé avec succès !",
+        "error": "Transaction échouée !"
+      },
+      "footer": {
+        "version": "Version",
+        "poweredBy": "Propulsé par",
+        "copyright": "Copyright (c) VIGOR DAC Ltd. 2020",
+        "disclaimer": "Divulgation des risques",
+        "termsConditions": "Termes & conditions",
+        "privacyPolicy": "Politique de confidentialité"
+      },
+      "user": {
+        "fees": {
+          "title": "Frais & Récompenses VIG",
+          "vigRewards": "Récompenses VIG",
+          "vigRewardsToolTip": "Récompenses de Prêt + Épargne",
+          "eosRewards": "Récompenses EOS",
+          "eosRewardsToolTip": "Vote Proxy + Récompenses REX",
+          "vigorRewards": "Récompenses VIGOR",
+          "vigorRewardsToolTip": "Récompenses pour VIG déposé dans le pool de prêt",
+          "feesPaid": "Frais payés",
+          "feesPaidToolTip": "Primes payées pour les prêts"
+        },
+        "poolContribution": "Contribution",
+        "solvencyContribution": "Contribution",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- dépasse la limite de transaction !",
+          "ExceedWdLimit": "- dépasse la limite de retrait !",
+          "ExceedAccountValueLimit": "- dépasse la valeur limite du compte !"
+        },
+        "donut": {
+          "ok": "Ok",
+          "ratio": "Ratio de garantie",
+          "liquidation": "Liquidation",
+          "danger": "Danger"
+        },
+        "lend": {
+          "title": "Prêter",
+          "reward": "Récompense du Prêteur",
+          "insurance": "{{jeton}} Assurance",
+          "pctsTooltip": "Votre contribution à la solvabilité des prêts VIGOR et crypto.",
+          "lendRewardTooltip": "La récompense dépend de votre contribution personnelle à la solvabilité."
+        },
+        "vault": {
+          "title": "Épargne",
+          "inVault": "{{jeton}} en Épargne",
+          "reward": "Récompense d'Épargne",
+          "pctsTooltip": "Votre contribution au pool d'épargne VIGOR"
+        },
+        "vigorLoans": {
+          "title": "Prêts VIGOR",
+          "borrowRate": "Taux d'Emprunt",
+          "reputation": "Réputation",
+          "discount": "Remise"
+        },
+        "cryptoLoans": {
+          "title": "Prêts Crypto"
+        },
+        "reputationTooltip": "Vous êtes mieux classé que {{réputation}}% de vos pairs.",
+        "discountTooltip": "Votre bonne réputation réduit votre taux d'emprunt de {{avant}}% à {{après}}%.",
+        "discountTooltip_zeroDiscount": "Remise non applicable, le taux d'emprunt est de 0"
+      },
+      "log": {
+        "showMore": "Montrer plus",
+        "loading": "Chargement...",
+        "activity": {
+          "title": "Activité récente",
+          "tableHeadings": {
+            "dateTime": "Temps",
+            "account": "Compte",
+            "action": "Action"
+          }
+        },
+        "bailout": {
+          "title": "Renflouements (bailouts) récents",
+          "subtitle": "(cliquer sur les lignes pour voir les détails)",
+          "tableHeadings": {
+            "dateTime": "Temps",
+            "account": "Compte",
+            "action": "Action",
+            "debt": "Dette",
+            "collateral": "Garantie"
+          }
+        }
+      },
+      "blocked": {
+        "title": "Ce site web n'est pas disponible dans votre pays"
+      },
+      "notFound": {
+        "title": "Cette page n'existe pas"
+      },
+      "tutorial": {
+        "name": "Tutoriel",
+        "step1": "Devenir prêteur en déposant des crypto-monnaies et recevoir des récompenses.",
+        "step2": "Déposer/retirer des cryptos à tout moment pour participer au Pool de Prêt. Le Pool de Prêt est la source d'approvisionnement des prêts cryptos (tels que EOS) et sert également à \"assurer\" tous les prêts du Vigor Protocol en absorbant les créances douteuses.",
+        "step3": "En contribuant au Pool de Prêt, vous obtenez le jeton VIG en guise de récompenses. Votre pourcentage de récompense en tant que prêteur représente le taux annualisé en temps réel de vos récompenses VIG.",
+        "step4": "Vos récompenses en tant que prêteur sont déposées directement dans votre garantie par les emprunteurs.",
+        "step5": "Vous pouvez voir ici le montant de jetons que vous avez contribué au Pool de Prêts.",
+        "step6": "Le Pool de Prêt contribue à la santé générale de la plateforme de prêt Vigor. Votre contribution à la solvabilité représente la contribution de votre part à cette santé et reflète la valeur globale en dollars et la volatilité de vos jetons dans le pool de prêts. La valeur sur la gauche correspond à votre part de contribution aux prêts VIGOR. La valeur à droite correspond à votre part de contribution aux prêts cryptographiques, autres que VIGOR.",
+        "step7": "En tant que prêteur, vous assumez un certain risque et il convient d'en tenir compte lorsque vous décidez de contribuer au Pool de Prêts. Lorsque le prêt d'un utilisateur est renfloué - bailed out - (la valeur de la garantie tombe en dessous de la valeur du prêt), la garantie et la dette sont toutes deux distribuées aux prêteurs. Le montant de chacun est basé sur votre contribution à la solvabilité. Par exemple : supposons qu'un utilisateur a un prêt ouvert de 100 $ de VIGOR et 150 $ de jeton EOS qui est publié comme garantie. Dès que leur valeur de garantie tombe en dessous de la valeur de leur prêt, ils sont renfloués.",
+        "step8": "Si votre contribution à la solvabilité est de 1,0%, vous recevrez 1,0% de la garantie de cet utilisateur (EOS), indiquée ici.",
+        "step9": "Vous recevrez également 1,0% de la dette de l'utilisateur (VIGOR), reflétée ici. VIGOR Protocol tentera de récapituler (clôturer) la dette que vous recevez des renflouements dans l'ordre suivant :",
+        "step10": "1) Si vous avez le jeton de dette (VIGOR dans cet exemple) déjà déposé dans le Pool de Prêt, votre part de la dette (1 VIGOR) est déduite du Pool de Prêt et détruite pour satisfaire la dette. Vous recevez encore votre part de la garantie (EOS).",
+        "step11": "2) Si vous ne disposez pas le jeton de dette dans le Pool de Prêt, certains de vos actifs de pool de prêt sont transférés en garantie pour couvrir la dette que vous recevez. Vous pouvez acquérir VIGOR par échange et le rembourser pour clôturer la dette et libérer votre garantie.",
+        "step12": "3) Pour les prêts crypto (Non-VIGOR), si vous avez le jeton de créance (EOS par exemple) déposé en garantie des prêts VIGOR, votre part de la dette est alors déduite de votre garantie et détruite pour rembourser la dette."
+      }
+    }
+  },
+  "tr": {
+    "translation": {
+      "vigorStablecoin": "Vigor Protocol",
+      "connectWallet": "Cüzdana Bağlan",
+      "viewDashboard": "Gösterge Tablosunu Görüntüle",
+      "step": "Adım",
+      "deposit": "Yatırma",
+      "withdraw": "Çekme",
+      "borrowText": "Ödünç Alma",
+      "repay": "Geri ödeme",
+      "debt": "Borç",
+      "collateral": "Teminat",
+      "loan": "Kredi",
+      "solvency": "Ödeme Gücü",
+      "amountOf": "Miktarı",
+      "amount": "Miktar",
+      "asset": "Varlık",
+      "percent": "Yüzde",
+      "noData": "n/a",
+      "value": "Değer",
+      "max": "Max",
+      "inWallet": "Cüzdan'da",
+      "notLoggedIn": "Henüz giriş yapmadınız",
+      "login": "Oturum Aç",
+      "logout": "Oturumu Kapat",
+      "walletBalances": "Cüzdan Bakiyeleri",
+      "cancel": "İptal",
+      "confirm": "Onay",
+      "done": "Bitti",
+      "faucet": "Jungle Musluğu",
+      "waitForSettlement": "Eylemleriniz kararlaştırılıyor",
+      "help": "Yardım",
+      "collateralRatio": "Teminat Oranı",
+      "balance": "Bakiye",
+      "resources": {
+        "Available": "Mevcut",
+        "Title": "Başlık",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "Veri yok",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "Maalesef bir şeyler ters gitti",
+        "subtitle": "Lütfen bu hatayı aşağıdaki verilerle birlikte geliştiricilere bildirin"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "VIGOR DAC Anayasasını imzalayın",
+          "version": "Versiyon",
+          "hash": "Hash",
+          "viewOnGithub": " Github Üzerinden Görüntüleyin",
+          "vigorConstitutionOnGithub": "Github'da VIGOR DAC oluşumunu görüntüleyin",
+          "submitButton": "Anayasayı imzala",
+          "checkbox_readAndAgreedToConstitution": "Anayasa şartlarını okudum ve kabul ediyorum."
+        },
+        "disclaimer": {
+          "title": "Risk Açıklaması",
+          "submitButton": "Anladım",
+          "item1": "Borç verme risksiz değildir. Borç verenler bir nedenle ödül alırlar. Borç verenler, tasfiye edilen krediler için kurtarma koruması sağlar. Bir kurtarma olayı sırasında, borç verenler otomatik olarak tasfiye edilmiş borcu ve ilgili tüm teminat belirteçlerini alır. Kurtarma gelirleri muhtemelen ödeme gücüne katkı yüzdesine göre tüm borç verenler tarafından paylaşılan net bir zarardır. Borç verenler, net kurtarma gelirlerine kaybettiklerinden daha fazla kredi ödülü kazanmayı umuyorlar.",
+          "item2": "eosio.rex, likidite sıkışıklığı olan% 90 ödünç verme seviyesine ulaşırsa, kullanıcı rex tekrar likit hale gelene kadar EOS işlemlerini yapamayabilir. Eosio çekirdek zinciri özellikleri çalışmıyorsa, Vigor dapp da çalışmayabilir.",
+          "item3": "Tüm EOS depozitoları REX'e gider ve likit hale gelmesi için beş gün bekleyin. Kullanıcılar, mevcutsa, olgunlaşmış herhangi bir EOS'u hemen geri çekebilirler. Aksi takdirde, kullanıcıların bir sonraki REX vade tarihini beklemesi gerekir.",
+          "item4": "Borç verme havuzu jeton kredisi verdiğinden, tüm borç verenlerin aynı anda çekmesi için yeterli likidite kalmaz. Borç verme havuzu, likiditeyi sürdürmek için bir maksimum borç verme limiti uygular.",
+          "item5": "Tasarruf, canlılık üzerindeki en az riskli faaliyettir, ancak riskten yoksun değildir. Tasarruf sahipleri, yalnızca tüm borç verenler / sigortacılar ortadan kaldırıldıktan ve nihai rezervden sonra artık kapasite kalmadıktan sonra felaket bir olayda zararı alır, çünkü tasarruf edenler en yaşlı kişilerdir.",
+          "item6": "Borçlular teminat oranını% 100'ün üzerinde tutmalıdır, aksi takdirde kurtarmaya gönderilirler. Kurtarma, borçları anlamına gelir ve eşit miktarda teminat (varsa) alınır ve borç verenlere verilir.",
+          "note": "LÜTFEN DİKKAT: Vigor Protokolü ve Akıllı Sözleşmeler tamamen merkezden dağıtılmıştır, tek bir sahibi, yöneticisi, geliştiricisi, denetleyicisi yoktur. Bu nedenle, protokolü kullanımınız tamamen kendi sorumluluğunuzdadır - PROTOKOLÜ KULLANARAK HER ŞEYİ KAYBEDEBİLİRSİNİZ. Herhangi bir varlığın veya dijital jetonun kısmen veya tamamen kaybedilmesi durumunda başvurulacak bir varlık veya kişi yoktur. PROTOKOLÜ KULLANMADAN ÖNCE LÜTFEN DİKKATLİCE DİKKAT EDİN. Son derece nadir durumlarda, varlıklarınızın veya dijital belirteçlerinizin bir süre erişilemez durumda kalması mümkündür. VIGOR SMART SÖZLEŞMELERİNİ VE PROTOKOLÜ ASLA KAYBEDECEĞİNİZDEN DAHA FAZLA DİJİTAL TOKENİ KİLİTLEMEYİN VE / VEYA UZUN BİR SÜRE İÇİN ERİŞEMEYECEK OLMAYIN."
+        },
+        "userOpening": {
+          "title": "Kullanıcı hesabı açın",
+          "body": "VIGOR protokolü, günde yalnızca belirli sayıda ücretsiz kullanıcı hesabı açılmasına izin verir. Ücretsiz bir hesap için daha sonra tekrar gelin veya hemen hesabınızı açmak için VIG yatırın.",
+          "body2": "VIG'yi stake ederek bekleme süresini atlayabilirsiniz. Stake tutarı 30 gün sonra tekrar çekilebilir.",
+          "stake": "Stake"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "Yetersiz VIG Ücretleri ve Ödül Bakiyesi",
+          "yourBalance": "Mevcut VIG Ücretleri ve Ödül bakiyesi:",
+          "agreeInitial": "Bu işlemle birlikte - ücret ödemek için kullanılan - bir miktar VIG ödünç almayı kabul edersiniz.",
+          "alternatively": "Alternatif olarak, VIG'yi VIG Rewards & Ücret Bakiyenize manuel olarak yatırabilirsiniz.",
+          "confirm": "Evet, VIG ödünç al"
+        },
+        "depositWithdrawFees": {
+          "title": "VIG Ücretleri ve Ödül Bakiyesi - Para Yatırma / Çekme"
+        }
+      },
+      "nav": {
+        "home": "Anasayfa",
+        "YourDashboard": "Gösterge Paneli",
+        "Alerts": "Uyarılar",
+        "Health": "Vigor Sağlığı",
+        "Borrow": "Ödünç Al",
+        "Earn": "Ödüllendir",
+        "EarnInsure": "Sigortalamak",
+        "EarnSaving": "Briktiriliyor",
+        "BorrowCrypto": "Kripto",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "İstatistik",
+        "StatsUsersMobile": "Kullanıcı (mobil)",
+        "StatsMarkets": "Piyasalar",
+        "StatsVIGORLoans": "Krediler - VIGOR",
+        "StatsCryptoLoans": "Krediler - Kripto"
+      },
+      "accountData": {
+        "constitutionSigned": "imzalı anayasa",
+        "tooltips": {
+          "readyToGo": "Hazırsınız!",
+          "thingsToDo_signConstitution": "VIGOR'u kullanmadan önce \n DAC tüzüğünü imzalamanız gerekiyor."
+        }
+      },
+      "index": {
+        "header": "Topluluk Ödünç Verin ve Kaydedin. \nMerkezi Olmayan, Otomatik Ödünç Verme.",
+        "earn": "Ödüller",
+        "earnDescription": "Kredileri desteklemek için kriptolarınızı bir sigorta havuzuna kilitleyerek veya Vigor'u bir kripto tasarruf hesabına kilitleyerek ödüllü VIG jetonları alın.",
+        "earnRateDescription": "En yüksek oranlar",
+        "earnButton": "Ödülleri Al",
+        "borrow": "Ödünç Al",
+        "borrowDescription": "VIGOR jetonlarını veya diğer kripto para birimlerini ödünç almak için Kilitleme teminatı alın.",
+        "borrowRateDescription": "En düşük oranlar",
+        "borrowButton": "Ödünç Almaya Başlayın"
+      },
+      "alerts": {
+        "authenticate": "Doğrula",
+        "settingsFailed": "Ayarlar yüklenemedi",
+        "retry": "Yeniden dene",
+        "setup": "Bildirimleri Ayarla",
+        "notifyAt": "Teminat Oranında Bildir",
+        "attachTelegram": "Telegrama bağlan",
+        "verify": "Doğrulayın",
+        "enable": "Bildirimleri Etkinleştir",
+        "updateSettings": "Ayarları güncelle",
+        "title": "Uyarılar",
+        "subtitle": "Kurtarma paketine yaklaştığınızda bildirim alın"
+      },
+      "health": {
+        "earnDescription": "Sigortacı olarak veya kripto tasarruflarıyla VIG ödülleri kazanın.",
+        "borrowDescription": "VIGOR veya diğer kripto para birimlerini ödünç alın.",
+        "vigorHealth": "VIGOR Sağlığı",
+        "inReserve": "Rezerve",
+        "inReserve_tooltip": "Rezerve...",
+        "totalBorrowed": "Toplam Ödünç Alınan",
+        "totalBorrowed_tooltip": "Toplam Ödünç Alınan...",
+        "vigPrice": "VIG Fiyatı",
+        "vigPrice_tooltip": "VIG Fiyatı....",
+        "vigorSupply": "VIGOR Arz",
+        "vigorSupply_tooltip": "VIGOR Arz...",
+        "totalCollateralVal": "Toplam Teminat Değeri",
+        "totalCollateralVal_tooltip": "TToplam Teminat Değeri...",
+        "totalInsurance": "Toplam Sigorta",
+        "totalInsurance_tooltip": "Toplam Sigorta..",
+        "totalDebt": "Toplam borç",
+        "totalDebt_tooltip": "Toplam borç...",
+        "solvency": "Ödeme Gücü",
+        "solvency_tooltip": "Düşük volatilite belirtecini desteklemek için sermaye yeterliliğini temsil eder",
+        "global": "Küresel görüş",
+        "finalReserve": "Final Rezerve",
+        "rate": "Oran",
+        "charts": {
+          "borrowRates": "Borçlanma Oranları",
+          "borrowInfo": "VIGOR borçlanma oranları, kripto kredilerinin arz ve talebini yansıtır. Her yeni borçlanma veya ödünç verme ile, stres testleri gerçek zamanlı olarak zincir üzerinde yapılır ve ödeme gücünü sermaye gereksinimlerine uygun tutmak için kredi oranları güncellenir.",
+          "borrowVigor": "VIGOR ödünç alın",
+          "borrowCrypto": "Kripto ödünç al"
+        }
+      },
+      "earn": {
+        "insureTitle": "Borç Veren Olun",
+        "insureDescription": "Borç verenler, sistemi hem yukarı hem de aşağı piyasa stres olaylarına karşı sigortalamak için Kripto ve VIGOR jetonlarını sigorta havuzuna yatırdıkları için VIG jetonlarıyla ödüllendirilir.",
+        "insureButton": "Sigortalı Krediler",
+        "savingsTitle": "Briktiriliyor",
+        "savingsDescription": "VIGOR jetonlarını kilitleyin ve fonlarınızda bir tasarruf oranı kazanın.",
+        "savingsButton": "Kaydetmeye Başla"
+      },
+      "earnInsure": {
+        "title": "Ödünç ver",
+        "subtitle": "Mevduat Sigortası, Ödül Almak",
+        "insuranceValue": "Sigorta değeri",
+        "insuranceAmount": "Sigorta Miktarı",
+        "availableAmount": "Mevcut Miktar",
+        "earningRate": "Ödül Oranını Tahmin Et",
+        "tableTitle": "Sigortalarınız"
+      },
+      "earnSavings": {
+        "title": "Brikimleriniz",
+        "subtitle": "Korumalı Bir Tasarruf Kasasına VIGOR yatırın ve VIG Ödüller kazanın",
+        "totalSavingsVigorValue": "Tasarruf Değeri",
+        "tableTitle": "Senin Briktirtiklerin"
+      },
+      "borrow": {
+        "stableTitle": "Düşük Volatilite Kredisi",
+        "stableDescription": "Bir VIGOR token kredisi almak için teminat olarak kripto yatırın. Kredi primlerini VIG belirteci ile ödeyin.",
+        "cryptoTitle": "Kripto Kredisi",
+        "cryptoDescription": "Kripto kredisi almak için teminat olarak VIGOR tokenini yatırın. Kredi primlerini VIG belirteci ile ödeyin.",
+        "startLoan": "Yeni Kredi Başlat"
+      },
+      "borrowVigor": {
+        "title": "VIGOR Kredileri",
+        "step1Description": "Krediniz için teminat olarak kripto para yatırın.",
+        "step2Description": "Kredi primlerini karşılamak için VIG jetonları yatırın. Kredi ödemeleri otomatik olarak gerçekleşir.",
+        "step3Description": "Krediyi başlatmak için VIGOR jetonunu geri çekin.",
+        "step4Description": "Kredi kurtarmadan kaçınmak için, her zaman yeterli teminat ve VIG jetonları bulundurun.",
+        "step1": {
+          "pageTitle": "Mevduat Teminatı",
+          "tableTitle": "Teminatınız",
+          "cryptoCollateral": "Kripto Teminat",
+          "depositCollateral": "Mevduat Teminatı"
+        },
+        "step2": {
+          "pageTitle": "VIG Yatır",
+          "tableTitle": "VIG Ücret Bakiyeniz",
+          "vigCollateral": "VIG Teminatı"
+        },
+        "step3": {
+          "totalCollateral": "Toplam Teminat",
+          "pageTitle": "Borç / Geri Ödeme VIGOR",
+          "tableTitle": "VIGOR'unuz",
+          "interestRate": "Tahmini Borçlanma Oranı",
+          "estimatedVig": "Tahmini Primler (1 Ay)",
+          "loanNote": "*Kredilerin değişken faiz oranları vardır ve vadeleri yoktur. Faiz oranları, ödünç alınan tutara (ödeme gücü) ve kripto kredi puanınıza kıyasla teminat değerine göre değişir."
+        }
+      },
+      "borrowCrypto": {
+        "title": "Kripto Kredileri",
+        "step1Description": "Krediniz için teminat olarak VIGOR yatırın.",
+        "step3Description": "Krediyi başlatmak için kripto jetonlarınızı geri çekin.",
+        "step1": {
+          "vigorCollateral": "VIGOR Teminat"
+        },
+        "step3": {
+          "pageTitle": "Kripto Ödünç / Geri Ödeme",
+          "tableTitle": "Kriptonuz",
+          "cryptoInWallet": "Cüzdanda Kripto",
+          "cryptoDebt": "Kripto Borç"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "Transfer gönderildi!"
+      },
+      "overlay": {
+        "waiting": "Kimlik doğrulayıcı bekleniyor ...",
+        "success": "Başarıyla imzalandı! ",
+        "error": "İşlem başarısız!"
+      },
+      "footer": {
+        "version": "Sürüm",
+        "poweredBy": "Destekleyeny",
+        "copyright": "Telif Hakkı  (c) VIGOR DAC Ltd. 2020",
+        "disclaimer": "Risk Açıklaması",
+        "termsConditions": "Şartlar ve Koşullar",
+        "privacyPolicy": "Gizlilik Politikası"
+      },
+      "user": {
+        "fees": {
+          "title": "VIG Ücretleri ve Ödüller",
+          "vigRewards": "VIG Ödülleri",
+          "vigRewardsToolTip": "Borç Verme + Tasarruf ödülleri",
+          "eosRewards": "EOS Ödülleri",
+          "eosRewardsToolTip": "Oy vekil + REX ödülleri",
+          "vigorRewards": "VIGOR Ödülleri",
+          "vigorRewardsToolTip": "Borç verme havuzuna yatırılan VIG için ödüller",
+          "feesPaid": "Ödenen ücretler",
+          "feesPaidToolTip": "Krediler için ödenen primler"
+        },
+        "poolContribution": "Aidat",
+        "solvencyContribution": "Aidat",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- işlem limitini aşıyor!",
+          "ExceedWdLimit": "- para çekme limitini aşıyor!",
+          "ExceedAccountValueLimit": "- hesap değeri sınırını aşıyor!"
+        },
+        "donut": {
+          "ok": "Ok",
+          "ratio": "Teminat Oranı",
+          "liquidation": "Tasfiye",
+          "danger": "Tehlike"
+        },
+        "lend": {
+          "title": "Ödünç ver",
+          "reward": "Borç Veren Ödülü",
+          "insurance": "{{token}} Sigorta",
+          "pctsTooltip": "VIGOR ve kripto kredileri için ödeme gücüne katkınız.",
+          "lendRewardTooltip": "Ödül, ödeme gücüne kişisel katkınıza bağlıdır."
+        },
+        "vault": {
+          "title": "Birikimler",
+          "inVault": "Brikimler {{token}}",
+          "reward": "Bririkim Ödülleri",
+          "pctsTooltip": "VIGOR tasarruf havuzuna katkınız"
+        },
+        "vigorLoans": {
+          "title": "VIGOR Kredileri",
+          "borrowRate": "Borçlanma Oranı",
+          "reputation": "İtibar",
+          "discount": "İndirim"
+        },
+        "cryptoLoans": {
+          "title": "Kripto Kredileri"
+        },
+        "reputationTooltip": "Akranlarınızın% {{reputation}} kadarından daha iyi bir konumdasınız. ",
+
+        "discountTooltip": "İyi itibarınız, borçlanma oranınızı% {{Önce}} 'den% {{sonra}}' e düşürür.",
+        "discountTooltip_zeroDiscount": "İndirim uygulanamaz, borçlanma oranı 0 "
+      },
+      "log": {
+        "showMore": "Daha fazla göster",
+        "loading": "Yükleniyor...",
+        "activity": {
+          "title": "Son etkinlik",
+          "tableHeadings": {
+            "dateTime": "Zaman",
+            "account": "Hesap",
+            "action": "Aksiyon"
+          }
+        },
+        "bailout": {
+          "title": "Son kurtarmalar",
+          "subtitle": "(ayrıntıları görmek için satırları tıklayın)",
+          "tableHeadings": {
+            "dateTime": "Zaman",
+            "account": "Hesap",
+            "action": "Aksiyon",
+            "debt": "Borçlu",
+            "collateral": "Yardımcı"
+          }
+        }
+      },
+      "blocked": {
+        "title": "Bu web sitesi ülkenizde mevcut değildir"
+      },
+      "notFound": {
+        "title": "Bu sayfa mevcut değil"
+      },
+      "tutorial": {
+        "name": "Öğretici",
+        "step1": "Kripto para yatırarak ve ödüllendirerek borç veren ol.",
+        "step2": "Kredi havuzuna katılmak için istediğiniz zaman kripto para yatırma/çekme. Kredi havuzu, kripto kredileri (EOS gibi) sağlamak için bir kaynaktır ve aynı zamanda kötü borçları emerek tüm Vigor Protokol kredilerini \"sigortalamak\" için de hizmet eder.",
+        "step3": "Kredi havuzuna katkıda bulunarak, ödül olarak bir VİG jetonu alırsınız. Borç veren ödül yüzdeniz, VIG ödüllerinizin gerçek zamanlı yıllık oranını temsil eder.",
+        "step4": "Borç veren ödülleriniz, doğrudan ödünç alanlardan teminatınıza yatırılır.",
+        "step5": "Burada, ödünç verme havuzuna katkıda bulunduğunuz token miktarını görebilirsiniz.",
+        "step6": "Borç verme havuzu, Vigor borç verme platformunun genel sağlığına katkıda bulunur. Ödeme gücüne olan katkınız, bu sağlığa olan pay katkınızı temsil eder ve borç verme havuzundaki jetonlarınızın toplam dolar değerini ve oynaklığını yansıtır. Soldaki değer, VİGOR kredilerine olan pay katkınızdır. Sağdaki değer, VİGOR dışında kripto kredilerine olan pay katkınızdır.",
+        "step7": "Bir borç veren olarak, bazı riskler üstlenirsiniz ve kredi havuzuna katkıda bulunmaya karar verirken bu dikkate alınmalıdır. Bir kullanıcının kredisi kefaletle serbest bırakıldığında (teminat değeri kredi değerinin altına düşer), hem teminatları hem de borçları borç verenlere dağıtılır. Her birinin miktarı, ödeme gücüne katkınıza dayanmaktadır. Örneğin, bir kullanıcının 100 $ 'lık bir canlılık ve 150 $' lık bir EOS jetonu için açık bir krediye sahip olduğunu varsayalım. Teminat değerlerinin kredi değerinin altına düştüğü anda kefaletle serbest bırakılırlar.",
+        "step8": "Ödeme gücüne katkınız% 1,0 ise, o kullanıcının teminatının (EOS)% 1,0'ını burada yansıtılır.",
+        "step9": "Ayrıca, buraya yansıtılan kullanıcı borcunun (VIGOR)% 1,0'ını alacaksınız. VIGOR Protokolü, kurtarma işlemlerinden aldığınız borcu aşağıdaki sırayla özetlemeye (kapatmaya) çalışacaktır:",
+        "step10": "1) Borç tekoninizi (bu örnekte VIGOR) zaten borç verme havuzuna yatırılmışsa, borcunuzun bir kısmı (1 VIGOR) borç verme havuzundan düşülür ve borcu karşılamak için imha edilir. Yine de teminatın (EOS) bir kısmını alıyorsunuz.",
+        "step11": "2) Borç verme havuzunda borç belirteciniz yoksa, borç verme havuzunuzun bazı varlıkları, aldığınız borcu geri almak için teminata taşınır. Borsadan canlılık kazanabilir ve borcunuzu kapatmak ve teminatınızı serbest bırakmak için geri ödeyebilirsiniz.",
+        "step12": "3)Kripto kredileri için (Vigor olmayan), Vigor kredileri için teminat olarak yatırılan borç belirteciniz (örneğin EOS) varsa, borcun bir kısmı teminatınızdan düşülür ve borcu karşılamak için imha edilir."
+      }
+    }
+  },
+  "it": {
+    "translation": {
+      "vigorStablecoin": "Vigor Protocol",
+      "connectWallet": "Collega il Wallet",
+      "viewDashboard": "Visualizza il Pannello di Controllo",
+      "step": "Step",
+      "deposit": "Deposita",
+      "withdraw": "Withdraw",
+      "borrowText": "Borrow",
+      "repay": "Rimborsa",
+      "debt": "Debito",
+      "collateral": "Collaterale",
+      "loan": "Loan",
+      "solvency": "Solvenza",
+      "amountOf": "Amount Of",
+      "amount": "Amount",
+      "asset": "Asset",
+      "percent": "Percent",
+      "noData": "n/a",
+      "value": "Valore",
+      "max": "Max",
+      "inWallet": "In Wallet",
+      "notLoggedIn": "Non ancora loggato",
+      "login": "Accesso",
+      "logout": "Disconnettersi",
+      "walletBalances": "Saldo Wallet",
+      "cancel": "Annulla",
+      "confirm": "Conferma",
+      "done": "Fatto",
+      "faucet": "Jungle Faucet",
+      "waitForSettlement": "La tua operazione è andata a buon fine",
+      "help": "Aiuto",
+      "collateralRatio": "Rapporto Collaterale",
+      "balance": "Saldo",
+      "resources": {
+        "Available": "A Disposizione",
+        "Title": "Titolo",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "No Data",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "Spiacente, qualcosa è andato storto",
+        "subtitle": "Per favore segnala questo errore insieme ai seguenti dati agli sviluppatori "
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "Firma la VIGOR DAC Costituzione",
+          "version": "Versione",
+          "hash": "Hash",
+          "viewOnGithub": "Visualizza sù Github",
+          "vigorConstitutionOnGithub": "Visualizza la VIGOR DAC costituzione sù github",
+          "submitButton": "Firma la costituzione",
+          "checkbox_readAndAgreedToConstitution": "Ho letto ed accetto i termini della costituzione."
+        },
+        "disclaimer": {
+          "title": "Chiarimenti sui rischi",
+          "submitButton": "Ho compreso",
+          "item1": "Lending non è privo di rischi. I Lenders ricevono premi per un motivo. I Lenders forniscono la protezione del bailout per i prestiti che vengono liquidati. Durante un evento di bailout, i Lenders ricevono automaticamente il debito liquidato e gli eventuali token collaterali associati. I frutti del bailout possono essere negativi e verranno condivisi fra tutti i finanziatori in base al contributo percentuale sulla solvibilità. I Lenders confidano di guadagnare di più nei lending rewards di quanto possano essere privati dai frutti del bailout.",
+          "item2": "Nel caso in cui eosio.rex raggiunga il livello di prestito del 90% delle sue risorse con una crisi di liquidità, l'utente potrebbe non essere in grado di effettuare transazioni EOS finché rex non sarà nuovamente liquido. Se le caratteristiche della catena principale di eosio non funzionano, anche la Vigor dapp potrebbe non funzionare.",
+          "item3": "Tutti i depositi EOS vanno in REX e attendono cinque giorni prima che diventino liquidi. Gli utenti possono ritirare immediatamente qualsiasi EOS già maturato se sono disponibili. In caso contrario, gli utenti devono attendere la prossima data di scadenza REX.",
+          "item4": "Poiché la lending pool presta token, la liquidità rimanente non è sufficiente per consentire a tutti i lenders di ritirarsi contemporaneamente. La lending pool applica un limite massimo di prestito per tentare di mantenere la liquidità costante.",
+          "item5": "Savings è l'attività meno rischiosa in Vigor, ma non è priva di rischi. I savings subirebbero una perdita solo nel caso in cui un bailout non vendo capitalizzato dai Lenders e dalla Final Reserve.",
+          "item6": "Borrowers devono mantenere un rapporto di collaterale al di sopra del {{bailoutCr}}% altrimenti scatta il bailout. Bailout significa che il loro debito e le loro  garanzie (se disponibili) saranno presi e distribuiti ai Lenders.",
+          "note": "PLEASE NOTE: Il Vigor Protocol e i suoi Smart Contracts sono completamente decentralizzati, non hanno un unico proprietario, manutentore, sviluppatore, controllore. L'utilizzo del protocollo è quindi interamente a tuo rischio - POTRESTI PERDERE TUTTO UTILIZZANDO IL PROTOCOLLO. Non vi è alcuna entità o persona a cui fare ricorso in caso di perdita parziale o totale di asset o token digitali. SI PREGA DI CONSIDERARE I RISCHI ATTENTAMENTE PRIMA DI UTILIZZARE IL PROTOCOLLO. In circostanze estremamente rare è possibile che le tue risorse o i tuoi token digitali rimangano inaccessibili per un periodo di tempo. NON DEPOSITATE MAI NEI VIGOR SMART CONTRACT E PROTOCOL PIÙ TOKEN DIGITALI DI QUANTO POTETE PERDERE E NON DEPOSITATE SE NON POTETE ACCEDERE PER UN LUNGO PERIODO."
+        },
+        "userOpening": {
+          "title": "Apri un account utente",
+          "body": "Il VIGOR protocol consente un certo numero di aperture account utente giornaliere. Torna più tardi per un account gratuito o metti in stake VIG per aprire il tuo account.",
+          "body2": "Puoi evitare questa attesa mettendo in stake VIG. Lo stake può essere ritirato dopo 30 giorni.",
+          "stake": "Stake"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "VIG Fees & Rewards Saldo Insufficienti",
+          "yourBalance": "VIG Fees & Rewards saldo Effettivo:",
+          "agreeInitial": "Accetti di prendere in prestito qualche VIG - saranno utilizzati per pagare le commissioni - con questa transazione.",
+          "alternatively": "In alternativa puoi depositare manualmente VIG sul tuo saldo VIG Rewards & Fees",
+          "confirm": "Si, prendo in prestito VIG"
+        },
+        "depositWithdrawFees": {
+          "title": "VIG Fees & Rewards Saldo - Deposito / Prelievo"
+        }
+      },
+      "nav": {
+        "home": "Home",
+        "YourDashboard": "Il tuo Pannello di Controllo",
+        "Alerts": "Notifiche",
+        "Health": "Vigor Health",
+        "Borrow": "Borrow",
+        "Earn": "Ricevi un Rewards",
+        "EarnInsure": "Insure",
+        "EarnSaving": "Savings",
+        "BorrowCrypto": "Criptovaluta",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "Statistiche",
+        "StatsUsersMobile": "Utente (mobile)",
+        "StatsMarkets": "Mercati",
+        "StatsVIGORLoans": "Loans - VIGOR",
+        "StatsCryptoLoans": "Loans - Criptovaluta"
+      },
+      "accountData": {
+        "constitutionSigned": "costituzione firmata",
+        "tooltips": {
+          "readyToGo": "Tutto è andato a buon fine!",
+          "thingsToDo_signConstitution": "Prima di usare VIGOR hai bisogno di firmare la VIGOR DAC costituzione"
+        }
+      },
+      "index": {
+        "header": "Borrow, Lend, and Save Community.\nPrestito Decentralizzato e automatizzato.",
+        "earn": "Rewards",
+        "earnDescription": "Ottieni ricompense in token VIG bloccando la tua criptovaluta in una insurance pool per sostenere i prestiti oppure bloccando Vigor in un savings account.",
+        "earnRateDescription": "Tariffe fino a",
+        "earnButton": "Ottieni Ricompense",
+        "borrow": "Borrow",
+        "borrowDescription": "Blocca collaterale per prendere in prestito VIGOR tokens o altre criptovalute.",
+        "borrowRateDescription": "Tariffe a partire da",
+        "borrowButton": "Start Borrowing"
+      },
+      "alerts": {
+        "authenticate": "Autenticato",
+        "settingsFailed": "Impossibile caricare le impostazioni",
+        "retry": "Riprova",
+        "setup": "Set Up Notifiche",
+        "notifyAt": "Notifica Rapporto Collaterale",
+        "attachTelegram": "Collega Telegram",
+        "verify": "Verifica",
+        "enable": "Abilita Notifiche",
+        "updateSettings": "Aggiorna Impostazioni",
+        "title": "Notifiche",
+        "subtitle": "Ricevi una notifica quando sta per entrare in funzione il bailout"
+      },
+      "health": {
+        "earnDescription": "Ottieni ricompense in VIG come lenders oppure con Vigor in savings account.",
+        "borrowDescription": "Prendi in prestito VIGOR oppure altre criptovalute.",
+        "vigorHealth": "VIGOR Health",
+        "inReserve": "In Riserva",
+        "inReserve_tooltip": "In Riserva...",
+        "totalBorrowed": "Totale Borrowed",
+        "totalBorrowed_tooltip": "Totalel Borrowed...",
+        "vigPrice": "VIG Prezzo",
+        "vigPrice_tooltip": "VIG Pezzo....",
+        "vigorSupply": "VIGOR Supply",
+        "vigorSupply_tooltip": "VIGOR Supply...",
+        "totalCollateralVal": "Total Collateral Value",
+        "totalCollateralVal_tooltip": "Total Collateral Value...",
+        "totalInsurance": "Total Insurance",
+        "totalInsurance_tooltip": "Total Insurance...",
+        "totalDebt": "Totale Debito",
+        "totalDebt_tooltip": "Totale Debito...",
+        "solvency": "Solvency",
+        "solvency_tooltip": "Rappresenta l'adeguatezza del capitale per sostenere il token di bassa volatilità",
+        "global": "Global View",
+        "finalReserve": "Final Reserve",
+        "rate": "Aliquote",
+        "charts": {
+          "borrowRates": "Borrow Aliquote",
+          "borrowInfo": "VIGOR borrow aliquote, riflettono la domanda e l'offerta dei prestiti criptografici. Ad ogni nuovo prestito vengono eseguiti stress test on-chain in tempo reale e i tassi di prestito vengono aggiornati per mantenere la solvibilità in linea con i requisiti patrimoniali.",
+          "borrowVigor": "Borrow VIGOR",
+          "borrowCrypto": "Borrow Criptovaluta"
+        }
+      },
+      "earn": {
+        "insureTitle": "Diventa un Lender",
+        "insureDescription": "Lenders sono ricompensati in VIG tokens per i loro depositi di Criptovaluta e/o di VIGOR tokens all’interno della lending pool, affinchè il sistema sia garantito contro eventi del mercato nelle fasi di rialzo e ribasso.",
+        "insureButton": "Insure Loans",
+        "savingsTitle": "Savings",
+        "savingsDescription": "Blocca VIGOR tokens e vieni ricompensato.",
+        "savingsButton": "Start Saving"
+      },
+      "earnInsure": {
+        "title": "Lend",
+        "subtitle": "Deposita in insurance, Ottieni Ricompense",
+        "insuranceValue": "Insurancel Valore",
+        "insuranceAmount": "Insurance Ammontare",
+        "availableAmount": "Ammontare Disponibile",
+        "earningRate": "Stima Ricompense Aliquota",
+        "tableTitle": "La tua Insurance"
+      },
+      "earnSavings": {
+        "title": "Savings",
+        "subtitle": "Deposita VIGOR dentro alla Savings Pool e ottieni VIG Ricompense",
+        "totalSavingsVigorValue": "Savings Valore",
+        "tableTitle": "I tuoi Savings"
+      },
+      "borrow": {
+        "stableTitle": "Prestito a bassa volatilità",
+        "stableDescription": "Deposita criptovaluta come collaterale per prendere in prestito VIGOR token . Paga le fees del prestito con VIG tokens.",
+        "cryptoTitle": "Crypto Loan",
+        "cryptoDescription": "Deposita VIGOR token come collaterale per prendere in prestito criptovaluta. Paga le fees del prestito con VIG tokens.",
+        "startLoan": "Inizia un nuovo Prestito"
+      },
+      "borrowVigor": {
+        "title": "VIGOR Prestiti",
+        "step1Description": "Deposita criptovaluta come collaterale per il tuo prestito.",
+        "step2Description": "Deposita VIG tokens per coprire le fees sui prestiti. I pagamenti del prestito avvengono automaticamente.",
+        "step3Description": "Preleva VIGOR token per avviare il prestito.",
+        "step4Description": "Per evitare il bailout del prestito, mantieni sempre adeguate garanzie e token VIG.",
+        "step1": {
+          "pageTitle": "Deposita Collaterale",
+          "tableTitle": "Il tuo Collaterale",
+          "cryptoCollateral": "Criptovaluta Collaterale",
+          "depositCollateral": "Deposita Collaterale"
+        },
+        "step2": {
+          "pageTitle": "Deposita VIG",
+          "tableTitle": "Il tuo Saldo VIG Fees",
+          "vigCollateral": "VIG Collaterale"
+        },
+        "step3": {
+          "totalCollateral": "Totale Collaterale",
+          "pageTitle": "Borrow/Ripaga VIGOR",
+          "tableTitle": "I tuoi VIGOR",
+          "interestRate": "Borrow Aliquota Stimata",
+          "estimatedVig": "Costi Stimati (1 Mese)",
+          "loanNote": "*I prestiti hanno tassi di interesse variabili e nessuna scadenza. I tassi di interesse variano in base al valore della garanzia rispetto all'importo preso in prestito (solvibilità) e al punteggio di credito criptato."
+        }
+      },
+      "borrowCrypto": {
+        "title": "Prestiti Criptovaluta",
+        "step1Description": "Deposita VIGOR come collaterale per il tuo prestito.",
+        "step3Description": "Preleva le tue criptovalute per iniziare il prestito.",
+        "step1": {
+          "vigorCollateral": "VIGOR Collaterale"
+        },
+        "step3": {
+          "pageTitle": "Borrow/Repaga Criptovaluta",
+          "tableTitle": "La tua Criptovaluta",
+          "cryptoInWallet": "Criptovaluta nel Wallet",
+          "cryptoDebt": "Criptovaluta Debito"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "Transazione inviata!"
+      },
+      "overlay": {
+        "waiting": "In attesa della autenticazione...",
+        "success": "Firmata con successo!",
+        "error": "Transazione fallita!"
+      },
+      "footer": {
+        "version": "Versione",
+        "poweredBy": "Powered by",
+        "copyright": "Copyright © VIGOR DAC Ltd. 2020",
+        "disclaimer": "Chiarimenti Rischi",
+        "termsConditions": "Termini & Condizioni",
+        "privacyPolicy": "Privacy Accortezza"
+      },
+      "user": {
+        "fees": {
+          "title": "VIG Fees & Rewards",
+          "vigRewards": "VIG Rewards",
+          "vigRewardsToolTip": "Lending + Savings rewards",
+          "eosRewards": "EOS Rewards",
+          "eosRewardsToolTip": "Vote Proxy + REX rewards",
+          "vigorRewards": "VIGOR Rewards",
+          "vigorRewardsToolTip": "Ottieni Rewards per depositi in VIG tokens nella lending pool",
+          "feesPaid": "Fees Pagate",
+          "feesPaidToolTip": "Costi pagati per prestiti"
+        },
+        "poolContribution": "Quota Contribuzione",
+        "solvencyContribution": "Quota Contribuzione",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- superato il limite di transazione!",
+          "ExceedWdLimit": "- superato il limite di prelievo!",
+          "ExceedAccountValueLimit": "- superato il limite del valore dell’account!"
+        },
+        "donut": {
+          "ok": "Ok",
+          "ratio": "Rapporto Collaterale",
+          "liquidation": "Liquidazione",
+          "danger": "Pericolo"
+        },
+        "lend": {
+          "title": "Lend",
+          "reward": "Lender Reward",
+          "insurance": "{{token}} Insurance",
+          "pctsTooltip": "Il tuo contributo alla solvibilità dei prestiti su VIGOR e/o criptovalute.",
+          "lendRewardTooltip": "La ricompensa dipende dal tuo contributo personale alla solvibilità."
+        },
+        "vault": {
+          "title": "Savings",
+          "inVault": "{{token}} in Savings",
+          "reward": "Savings Ricompense",
+          "pctsTooltip": "Il tuo contributo alla VIGOR savings pool"
+        },
+        "vigorLoans": {
+          "title": "VIGOR Prestiti",
+          "borrowRate": "Borrow Aliquota",
+          "reputation": "Reputazione",
+          "discount": "Sconti"
+        },
+        "cryptoLoans": {
+          "title": "Criptovalute Prestiti"
+        },
+        "reputationTooltip": "Sei classificato meglio {{reputazione}}% degli altri utenti.",
+        "discountTooltip": "La tua buona reputazione riduce il tasso di prestito {{prima}}% a {{dopo}}%.",
+        "discountTooltip_zeroDiscount": "Sconto non applicabile, borrow aliquota è 0"
+      },
+      "log": {
+        "showMore": "Mostra di più",
+        "loading": "Caricamento in corso...",
+        "activity": {
+          "title": "Attività Recenti",
+          "tableHeadings": {
+            "dateTime": "Tempo",
+            "account": "Account",
+            "action": "Azione"
+          }
+        },
+        "bailout": {
+          "title": "Bailouts Recenti",
+          "subtitle": "(clicca sulle righe per visualizzare i dettagli)",
+          "tableHeadings": {
+            "dateTime": "Tempo",
+            "account": "Account",
+            "action": "Azione",
+            "debt": "Debito",
+            "collateral": "Collaterale"
+          }
+        }
+      },
+      "blocked": {
+        "title": "Questo sito WEB non è disponibile nella tua nazione"
+      },
+      "notFound": {
+        "title": "Questa pagina non esiste"
+      },
+      "tutorial": {
+        "name": "Tutorial",
+        "step1": "Diventa un lender depositando criptovaluta e ottieni ricompense.",
+        "step2": "Deposita/Preleva criptovalute in qualsiasi momento per partecipare alla Lending Pool. La Lending Pool è la fonte che offre prestiti di criptovaluta (come  EOS) e assorbe \"garantisce\"  tutti i debiti dei prestiti del Vigor Protocol.",
+        "step3": "Contribuendo alla Lending Pool ottieni ricompense in VIG token. La tua lender reward percentuale rappresenta in tempo reale il tasso annualizzato delle ricompense che otterrai in VIG tokens.",
+        "step4": "I tuoi lender rewards sono depositati direttamente dai borrowers.",
+        "step5": "Qui puoi vedere la quantità di token con cui hai contribuito alla lending pool.",
+        "step6": "La Lending Pool contribuisce alla salute generale della piattaforma Vigor. Il tuo contributo alla solvibilità rappresenta la quota a quella salute e riflette il valore complessivo in dollari e la volatilità dei tuoi token nella Lending Pool. Il valore a sinistra è la tua quota di partecipazione ai prestiti VIGOR. Il valore a destra è la tua quota di partecipazione ai prestiti di criptovaluta, diversi da VIGOR.",
+        "step7": "In qualità di Lender, ti assumi qualche rischio e questo dovrebbe essere preso in considerazione quando decidi di contribuire alla Lending Pool. Quando il prestito di un utente viene salvato (il valore della garanzia scende al di sotto del valore del prestito), sia la garanzia che il debito vengono distribuiti ai Lenders. L'importo di ciascuno si basa sul tuo contributo alla solvibilità. Ad esempio: diciamo che un utente ha un prestito aperto del valore di $ 100 di VIGOR e di $ 150 di token EOS come garanzia. Nel momento in cui il valore della  garanzia scende al di sotto del valore del prestito scatta il bailout, sia la garanzia che il debito vengono distribuiti.",
+        "step8": "Se il tuo contributo alla solvenza è 1.0% riceverai 1.0% della garanzia di quell'utente (EOS), riflessa qui.",
+        "step9": "Riceverai anche 1.0% del debito dell’utente (VIGOR), riflesso qui. Il VIGOR Protocol distribuirà (closeout) il debito che ricevi dai Bailout nella seguente sequenza:",
+        "step10": "1) Se hai il token di debito (VIGOR in questo esempio) già depositato nella Lending Pool, la tua parte del debito (1 VIGOR) viene detratto dalla Lending Pool e distrutto per soddisfare il debito.",
+        "step11": "2) Se non hai il token del debito depositato nella Lending Pool, alcuni dei tuoi asset verranno spostati da essa come garanzia, per sostenere il debito che ricevi. Puoi acquistare VIGOR negli exchange e rimborsarlo per chiudere il debito e liberare la tua garanzia",
+        "step12": "3)Per i prestiti di criptovaluta (Non Vigor), se possiedi il token del debito (EOS per esempio) depositato come collaterale, la tua parte del debito viene detratta dalla tua garanzia e distrutta per soddisfare il debito."
+      }
+    }
+  },
+  "vi": {
+    "translation": {
+      "vigorStablecoin": "Vigor Protocol",
+      "connectWallet": "Kết nối với ví tiền",
+      "viewDashboard": "Xem tổng quan",
+      "step": "Các bước",
+      "deposit": "Tiền gửi",
+      "withdraw": "Rút tiền",
+      "borrowText": "Vay tiền",
+      "repay": "Hoàn trả",
+      "debt": "Nợ",
+      "collateral": "Tài sản thế chấp",
+      "loan": "Tiền vay",
+      "solvency": "Khả năng thanh toán",
+      "amountOf": "Số lượng",
+      "amount": "Số tiền",
+      "asset": "Tài sản",
+      "percent": "Phần trăm",
+      "noData": "n/a",
+      "value": "Giá trị",
+      "max": "Tối đa",
+      "inWallet": "Trong ví",
+      "notLoggedIn": "Chưa đăng nhập",
+      "login": "Đăng nhập",
+      "logout": "Đăng xuất",
+      "walletBalances": "Số dư trong ví",
+      "cancel": "Hủy bỏ",
+      "confirm": "Xác nhận",
+      "done": "Hoàn thành",
+      "faucet": "Jungle Faucet",
+      "waitForSettlement": "Yêu cầu của bạn đang được xử lý",
+      "help": "Giúp đỡ",
+      "collateralRatio": "Tỷ lệ tài sản đảm bảo",
+      "balance": "Cân bằng",
+      "resources": {
+        "Available": "Sẵn sàng",
+        "Title": "Tiêu đề",
+        "CPU": "CPU",
+        "RAM": "RAM",
+        "NET": "NET",
+        "NoData": "Không dữ liệu",
+        "freeTx": "Free Transactions"
+      },
+      "errorFallback": {
+        "title": "Rất tiếc, Đã xảy ra lỗi",
+        "subtitle": "Vui lòng báo cáo lỗi này cùng với dữ liệu cho nhà phát triển"
+      },
+      "modal": {
+        "signConstitution": {
+          "title": "Ký đồng ký VIGOR DAC",
+          "version": "Phiên bản",
+          "hash": "Hash",
+          "viewOnGithub": "Xem trên Github",
+          "vigorConstitutionOnGithub": " Xem cấu hình VIGOR DAC trên github ",
+          "submitButton": "Ký đồng ý",
+          "checkbox_readAndAgreedToConstitution": "Tôi đã đọc và đồng ý với các điều khoản của tổ chức."
+        },
+        "disclaimer": {
+          "title": "Tuyên bố rủi ro",
+          "submitButton": "Tôi hiểu",
+          "item1": "Cho vay không phải là không có rủi ro. Người cho vay nhận được lãi là có lý do. Người cho vay cung cấp bảo vệ cứu trợ cho các khoản vay được thanh lý. Trong sự kiện cứu trợ, người cho vay sẽ tự động nhận được nợ đã thanh lý và bất kỳ tokens tài sản đảm bảo nào liên quan. Số tiền thu được từ gói cứu trợ có thể là một khoản lỗ ròng, được chia sẻ bởi tất cả những người cho vay theo phần trăm đóng góp vào khả năng thanh toán. Người cho vay hy vọng thu được nhiều hơn từ lãi cho vay so với việc họ mất tiền từ gói cứu trợ ròng.",
+          "item2": "Nếu eosio.rex đạt đến mức cho vay 90%, một sự suy giảm thanh khoản, thì người dùng có thể không thể giao dịch EOS cho đến khi rex thanh khoản trở lại. Nếu các tính năng của chuỗi lõi eosio không hoạt động, thì dapp Vigor cũng có thể không hoạt động.",
+          "item3": "Tất cả các khoản tiền gửi của EOS sẽ được chuyển vào REX và đợi trong năm ngày để trở nên thanh khoản. Người dùng có thể rút ngay lập tức bất kỳ EOS nào đã đến hạn thanh toán nếu có. Nếu không thì người dùng cần đợi ngày đáo hạn REX tiếp theo.",
+          "item4": "Khi nhóm cho vay cho vay các token, nên không có đủ thanh khoản còn lại để tất cả người cho vay rút cùng một lúc. Nhóm cho vay thực thi giới hạn cho vay tối đa để cố gắng duy trì tính thanh khoản.",
+          "item5": "Tiết kiệm là hoạt động ít rủi ro nhất, nhưng không phải là không có rủi ro. Người tiết kiệm sẽ chỉ bị lỗ trong một trường hợp  khi tất cả người cho vay / công ty bảo hiểm bị xóa sổ và sau khi nguồn dự trữ cuối cùng không còn khả năng nữa, vì người tiết kiệm là những người cao cấp nhất.",
+          "item6": " Người đi vay phải duy trì tỷ lệ tài sản thế chấp trên {{bailoutCr}}% nếu không họ sẽ được gửi đi cứu trợ. Cứu trợ có nghĩa là khoản nợ của họ và một lượng tài sản thế chấp tương đương (nếu có) sẽ được lấy và trao cho người cho vay.",
+          "note": "XIN LƯU Ý: Vigor Protocol và Hợp đồng thông minh được phân cấp hoàn toàn, không có chủ sở hữu duy nhất, người duy trì, nhà phát triển, người kiểm soát. Do đó, việc sử dụng protocol của bạn hoàn toàn do bạn tự chịu rủi ro - BẠN CÓ THỂ MẤT MỌI THỨ KHI SỬ DỤNG PRÔTCOL. Không có thực thể hoặc cá nhân nào để truy đòi trong trường hợp mất một phần hoặc toàn bộ bất kỳ tài sản hoặc mã thông báo kỹ thuật số nào. VUI LÒNG HÃY C N NHẮC KỸ TRƯỚC KHI SỬ DỤNG PROTOCOL. Trong những trường hợp cực kỳ hiếm, có thể tài sản hoặc mã thông báo kỹ thuật số của bạn vẫn không thể truy cập được trong một khoảng thời gian. KHÔNG BAO GIỜ BỊ KHÓA HỢP ĐỒNG THÔNG MINH VIGOR VÀ TIỀN TỆ HƠN CÁC TOKENS KỸ THUẬT SỐ HƠN KHI BẠN CÓ THỂ BỊ MẤT VÀ / HOẶC KHÔNG THỂ TRUY CẬP TRONG THỜI GIAN DỰ KIẾN."
+        },
+        "userOpening": {
+          "title": "Mở tài khoản",
+          "body": "VIGOR Protocol chỉ cho phép một số lượng người dùng mở tài khoản miễn phí nhất định mỗi ngày. Quay lại sau để có tài khoản miễn phí hoặc đặt cọc VIG để mở tài khoản của bạn ngay bây giờ.",
+          "body2": " Bạn có thể bỏ qua thời gian chờ đợi bằng cách đặt cọc VIG. Tiền cọc có thể được rút lại sau 30 ngày.",
+          "stake": "Cổ phần"
+        },
+        "vigFeeBorrowConfirmation": {
+          "title": "Số dư phí VIG và Lãi hiện tại không đủ",
+          "yourBalance": " Số dư Phí VIG & lãi hiện tại:",
+          "agreeInitial": " Bạn đồng ý vay một số VIG - dùng để trả phí - với giao dịch này.",
+          "alternatively": " Ngoài ra, bạn có thể thực hiện bàng cách gửi VIG vào lãi VIG & phí ",
+          "confirm": "Xác nhận, vay VIG"
+        },
+        "depositWithdrawFees": {
+          "title": "Phí VIG & Số dư lãi suất - Gửi / Rút"
+        }
+      },
+      "nav": {
+        "home": "Trang chủ",
+        "YourDashboard": "Bảng thông tin của bạn",
+        "Alerts": "Cảnh báo",
+        "Health": "Sức khỏe Vigor",
+        "Borrow": "Vay",
+        "Earn": "Nhận lãi",
+        "EarnInsure": "Bảo hiểm",
+        "EarnSaving": "Tiết kiệm",
+        "BorrowCrypto": "Tiền điện tử",
+        "BorrowVIGOR": "VIGOR",
+        "Stats": "Số liệu thống kê",
+        "StatsUsersMobile": "Người dùng (điện thoại)",
+        "StatsMarkets": "Thị trường",
+        "StatsVIGORLoans": "Vay - VIGOR",
+        "StatsCryptoLoans": "Vay - Crypto"
+      },
+      "accountData": {
+        "constitutionSigned": "Bạn đã ký",
+        "tooltips": {
+          "readyToGo": "Bạn đã sẵn sàng!",
+          "thingsToDo_signConstitution": "Bạn cần ký vào DAC\n trước khi sử dụng VIGOR"
+        }
+      },
+      "index": {
+        "header": "Cộng đồng vay, cho vay, tiết kiệm.\nCho vay phi tập trung, Tự động hóa .",
+        "earn": "Nhận lãi",
+        "earnDescription": " Nhận VIG token lãi suất bằng cách khóa tiền điện tử của bạn trong một nhóm bảo hiểm để hoàn trả các khoản vay hoặc bằng cách khóa Vigor trong tài khoản tiết kiệm tiền điện tử.",
+        "earnRateDescription": "Tỷ lệ cao",
+        "earnButton": "Nhận lãi",
+        "borrow": "Vay",
+        "borrowDescription": "Khóa tài sản thế chấp để vay VIGOR hoặc các tiền điện tử khác.",
+        "borrowRateDescription": "Tỷ lệ thấp",
+        "borrowButton": "Bắt đầu vay"
+      },
+      "alerts": {
+        "authenticate": "Xác thực",
+        "settingsFailed": "Không thể tải cài đặt",
+        "retry": "Thử lại",
+        "setup": "Thiết lập thông báo",
+        "notifyAt": " Thông báo theo tỷ lệ tài sản đảm bảo ",
+        "attachTelegram": "Đính kèm Telegram",
+        "verify": "Kiểm chứng",
+        "enable": "Bật thông báo",
+        "updateSettings": "Cập nhật cài đặt",
+        "title": "Cảnh báo",
+        "subtitle": " Nhận thông báo khi bạn sắp có gói cứu trợ "
+      },
+      "health": {
+        "earnDescription": " Nhận lãi VIG với tư cách là công ty bảo hiểm hoặc tiết kiệm tiền điện tử.",
+        "borrowDescription": "Vay VIGOR hoặc các loại tiền điện tử khác.",
+        "vigorHealth": "VIGOR Health",
+        "inReserve": "Đang dự trữ",
+        "inReserve_tooltip": "Đang dự trữ...",
+        "totalBorrowed": "Tổng số tiền đã vay",
+        "totalBorrowed_tooltip": "Tổng số tiền đã vay...",
+        "vigPrice": "Giá VIG",
+        "vigPrice_tooltip": "Giá VIG....",
+        "vigorSupply": "Cung cấp VIGOR",
+        "vigorSupply_tooltip": "Cung cấp VIGOR...",
+        "totalCollateralVal": "Tổng giá trị tài sản thế chấp",
+        "totalCollateralVal_tooltip": "Tổng giá trị tài sản thế chấp...",
+        "totalInsurance": "Tổng bảo hiểm",
+        "totalInsurance_tooltip": "Tổng bảo hiểm...",
+        "totalDebt": "Tổng nợ",
+        "totalDebt_tooltip": "Tổng nợ...",
+        "solvency": "Khả năng thanh toán",
+        "solvency_tooltip": " Thể hiện mức độ an toàn vốn để hỗ trợ token hoạt động với biến động thấp",
+        "global": "Tầm nhìn chung",
+        "finalReserve": "Dự trữ cuối cùng",
+        "rate": "Lãi suất",
+        "charts": {
+          "borrowRates": "Lãi suất vay",
+          "borrowInfo": "Tỷ lệ vay VIGOR phản ánh cung và cầu của các khoản vay tiền điện tử. Với mỗi khoản vay hoặc cho vay mới, các bài kiểm tra căng thẳng được thực hiện theo chuỗi trong thời gian thực và tỷ lệ cho vay cập nhật để giữ khả năng thanh toán phù hợp với yêu cầu vốn.",
+          "borrowVigor": "Vay VIGOR",
+          "borrowCrypto": "Vay tiền điện tử"
+        }
+      },
+      "earn": {
+        "insureTitle": "Trở thành người cho vay",
+        "insureDescription": " Người cho vay được nhận lãi bằng VIG token khi gửi tiền điện tử và VIGOR vào nhóm bảo hiểm để đảm bảo hệ thống chống lại các sự kiện căng thẳng thị trường tăng và giảm.",
+        "insureButton": "Bảo hiểm các khoản cho vay ",
+        "savingsTitle": "Tiết kiệm",
+        "savingsDescription": "Khóa VIGOR token và nhận lãi  với tỷ lệ trên số tiền tiết kiệm của bạn.",
+        "savingsButton": "Bắt đầu tiết kiệm"
+      },
+      "earnInsure": {
+        "title": "Cho vay",
+        "subtitle": "Bảo hiểm tiền gửi, Nhận lãi",
+        "insuranceValue": "Giá trị bảo hiểm",
+        "insuranceAmount": "Tiền bảo hiểm",
+        "availableAmount": "Số tiền có sẵn",
+        "earningRate": "Ước tính lãi suất",
+        "tableTitle": "Bảo hiểm của bạn"
+      },
+      "earnSavings": {
+        "title": "Tiết kiệm",
+        "subtitle": " Gửi VIGOR vào Kho tiết kiệm được bảo vệ và nhận Phần thưởng VIG ",
+        "totalSavingsVigorValue": "Giá trị tiết kiệm",
+        "tableTitle": "Tiền tiết kiệm của bạn"
+      },
+      "borrow": {
+        "stableTitle": "Khoản vay biến động thấp",
+        "stableDescription": " Gửi tiền điện tử làm tài sản thế chấp để vay tiền bằng VIGOR token. Thanh toán phí bảo hiểm khoản vay bằng VIG token.",
+        "cryptoTitle": "Vay tiền điện tử",
+        "cryptoDescription": " Gửi VIGOR token làm tài sản thế chấp để vay tiền điện tử. Thanh toán phí bảo hiểm khoản vay bằng VIG token.",
+        "startLoan": "Bắt đầu khoản vay mới"
+      },
+      "borrowVigor": {
+        "title": "Vay VIGOR",
+        "step1Description": " Gửi tiền điện tử làm tài sản thế chấp cho khoản vay của bạn.",
+        "step2Description": " Gửi VIG token để trang trải phí bảo hiểm cho khoản vay. Thanh toán khoản vay diễn ra tự động.",
+        "step3Description": " Rút VIGOR token để bắt đầu khoản vay.",
+        "step4Description": " Để tránh khoản vay được cứu trợ, hãy luôn giữ đầy đủ tài sản thế chấp và VIG tokens",
+        "step1": {
+          "pageTitle": " Đặt cọc tài sản thế chấp ",
+          "tableTitle": "Tài sản thế chấp của bạn",
+          "cryptoCollateral": "Thế chấp tiền điện tử",
+          "depositCollateral": "Thế chấp tiền gửi"
+        },
+        "step2": {
+          "pageTitle": "Tiền gửi VIG",
+          "tableTitle": " Số dư phí VIG của bạ ",
+          "vigCollateral": "Thế chấp VIG"
+        },
+        "step3": {
+          "totalCollateral": "Tổng tài sản thế chấp",
+          "pageTitle": "Vay/Trả nợ VIGOR",
+          "tableTitle": " VIGOR của bạn",
+          "interestRate": "Tỷ lệ vay ước tính",
+          "estimatedVig": "Phí bảo hiểm ước tính (1 tháng)",
+          "loanNote": "* Các khoản vay có lãi suất thay đổi và không có kỳ hạn. Lãi suất thay đổi dựa trên giá trị tài sản thế chấp so với số tiền đã vay (khả năng thanh toán) và điểm tín dụng tiền điện tử của bạn."
+        }
+      },
+      "borrowCrypto": {
+        "title": "Vay tiền điện tử",
+        "step1Description": " Gửi VIGOR làm tài sản thế chấp cho khoản vay của bạn.",
+        "step3Description": " Rút token tiền điện tử của bạn để bắt đầu khoản vay.",
+        "step1": {
+          "vigorCollateral": "Thế chấp VIGOR "
+        },
+        "step3": {
+          "pageTitle": "Vay/Trả nợ tiền điện tử",
+          "tableTitle": "Tiền điện tử của bạn",
+          "cryptoInWallet": "Tiền điện tử trong ví",
+          "cryptoDebt": "Nợ tiền điện tử"
+        }
+      },
+      "toasty": {
+        "transactionSuccess": "Giao dịch đã được gửi!"
+      },
+      "overlay": {
+        "waiting": "Đang đợi xác thực...",
+        "success": "Đã ký thành công!",
+        "error": "Giao dịch không thành công!"
+      },
+      "footer": {
+        "version": "Phiên bản",
+        "poweredBy": "Được cung cấp bởi",
+        "copyright": "Bản quyền (c) VIGOR DAC Ltd. 2020",
+        "disclaimer": "Risk Disclosure",
+        "termsConditions": "Điều khoản & điều kiện",
+        "privacyPolicy": "Chính sách bảo mật"
+      },
+      "user": {
+        "fees": {
+          "title": "Phí VIG & Phần thưởng",
+          "vigRewards": "Phần thưởng VIG",
+          "vigRewardsToolTip": "Cho vay + Lãi tiết kiệm",
+          "eosRewards": "Lãi EOS",
+          "eosRewardsToolTip": "Vote Proxy + Lãi REX",
+          "vigorRewards": "Lãi VIGOR",
+          "vigorRewardsToolTip": " Lãi cho VIG gửi vào quỹ cho vay ",
+          "feesPaid": "Phí đã trả",
+          "feesPaidToolTip": "Phí bảo hiểm trả cho các khoản vay"
+        },
+        "poolContribution": "Sự đóng góp",
+        "solvencyContribution": "Sự đóng góp",
+        "cr": "CR",
+        "estimations": {
+          "crBorrowLimit": "CR Borrow Limit",
+          "borrowable": "Available Tokens"
+        },
+        "warning": {
+          "ExceedTxLimit": "- vượt quá giới hạn giao dịch!",
+          "ExceedWdLimit": "- vượt quá giới hạn rút tiền!",
+          "ExceedAccountValueLimit": "- vượt quá giới hạn giá trị tài khoản!"
+        },
+        "donut": {
+          "ok": "Đồng ý",
+          "ratio": "Tỷ lệ tài sản đảm bảo",
+          "liquidation": "Thanh toán",
+          "danger": "Nguy hiểm"
+        },
+        "lend": {
+          "title": "Cho vay",
+          "reward": "Lãi cho người cho vay",
+          "insurance": "{{token}} Bảo hiểm",
+          "pctsTooltip": " Đóng góp của bạn vào khả năng thanh toán cho các khoản vay VIGOR và tiền điện tử.",
+          "lendRewardTooltip": " Lãi nhận được phụ thuộc vào đóng góp cá nhân của bạn vào khả năng thanh toán."
+        },
+        "vault": {
+          "title": "Tiết kiệm",
+          "inVault": "{{token}} Tiết kiệm",
+          "reward": "Lãi tiết kiệm",
+          "pctsTooltip": " Khoản đóng góp của bạn vào quỹ tiết kiệm VIGOR "
+        },
+        "vigorLoans": {
+          "title": "Cho vay VIGOR ",
+          "borrowRate": "Lãi suất vay",
+          "reputation": "Uy tín",
+          "discount": "Giảm giá"
+        },
+        "cryptoLoans": {
+          "title": "Cho vay tiền điện tử"
+        },
+        "reputationTooltip": " Bạn được xếp hạng tốt hơn {{uy tín}}% so với các đồng nghiệp của bạn.",
+        "discountTooltip": " Bạn có uy tín tốt làm giảm tỷ lệ vay của bạn từ {{trước}}% xuống {{sau}}%.",
+        "discountTooltip_zeroDiscount": "Không áp dụng chiết khấu, lãi suất vay l"
+      },
+      "log": {
+        "showMore": "Hiển thị thêm",
+        "loading": "Đang tải...",
+        "activity": {
+          "title": "Hoạt động gần đây",
+          "tableHeadings": {
+            "dateTime": "Thời gian",
+            "account": "Tài khoản",
+            "action": "Hoạt động"
+          }
+        },
+        "bailout": {
+          "title": "Các gói cứu trợ gần đây",
+          "subtitle": "(nhấp vào để xem chi tiết)",
+          "tableHeadings": {
+            "dateTime": "Time",
+            "account": "Tài khoản",
+            "action": "Hoạt động",
+            "debt": "Nợ",
+            "collateral": "Tài sản thế chấp"
+          }
+        }
+      },
+      "blocked": {
+        "title": " Trang web này không hoạt động ở quốc gia của bạn "
+      },
+      "notFound": {
+        "title": "Trang này không tồn tại"
+      },
+      "tutorial": {
+        "name": "Hướng dẫn",
+        "step1": " Trở thành người cho vay bằng cách gửi tiền điện tử và nhận lãi.",
+        "step2": "Gửi/Rút tiền điện tử bất cứ lúc nào để tham gia vào Nhóm cho vay. Nhóm cho vay là nguồn cung cấp các khoản vay tiền điện tử (chẳng hạn như EOS) và cũng dùng để \"bảo hiểm\" tất cả các khoản vay theo Giao thức Vigor bằng cách hấp thụ nợ xấu.",
+        "step3": " Bằng cách đóng góp vào Nhóm cho vay, bạn sẽ nhận được VIG tokens như là lãi. Phần trăm lãi cho người cho vay của bạn thể hiện tỷ lệ lãi VIG hàng năm theo thời gian thực của bạn.",
+        "step4": " Lãi cho người cho vay của bạn được gửi trực tiếp vào tài sản thế chấp của bạn trực tiếp từ người đi vay.",
+        "step5": " Tại đây, bạn có thể thấy số lượng token mà bạn đã đóng góp vào quỹ cho vay.",
+        "step6": "Nhóm cho vay góp phần vào sức khỏe tổng thể của nền tảng cho vay Vigor. Đóng góp của bạn vào khả năng thanh toán thể hiện sự đóng góp cổ phần của bạn đối với tình trạng đó và phản ánh giá trị đô la tổng thể và sự biến động của các mã thông báo của bạn trong Nhóm cho vay. Giá trị bên trái là phần đóng góp của bạn vào các khoản vay VIGOR. Giá trị bên phải là đóng góp cổ phần của bạn vào các khoản vay tiền điện tử, ngoài VIGOR.",
+        "step7": "Với tư cách là Người cho vay, bạn phải chịu một số rủi ro và điều này cần được tính đến khi quyết định đóng góp vào Nhóm cho vay. Khi khoản vay của người dùng được bảo lãnh (giá trị tài sản thế chấp giảm xuống dưới giá trị khoản vay của họ), cả tài sản thế chấp và nợ của họ sẽ được phân phối cho Bên cho vay. Số tiền của mỗi khoản dựa trên đóng góp của bạn vào khả năng thanh toán. Ví dụ: Giả sử một người dùng có khoản vay mở VIGOR trị giá 100 đô la và mã thông báo EOS trị giá 150 đô la được đăng làm tài sản thế chấp của họ. Thời điểm mà giá trị tài sản thế chấp của họ giảm xuống dưới giá trị khoản vay thì họ được bảo lãnh.",
+        "step8": " Nếu đóng góp của bạn vào khả năng thanh toán là 1,0% thì bạn sẽ nhận được 1,0% tài sản thế chấp của người dùng đó (EOS), được phản ánh tại đây.",
+        "step9": " Bạn cũng sẽ nhận được 1,0% khoản nợ của người dùng (VIGOR), được phản ánh ở đây. Giao thức VIGOR sẽ cố gắng tổng hợp (khóa sổ) khoản nợ mà bạn nhận được từ các gói cứu trợ theo trình tự sau:",
+        "step10": "1) Nếu bạn có mã thông báo nợ (VIGOR trong ví dụ này) đã được gửi vào nhóm cho vay, thì phần nợ của bạn (1 VIGOR) sẽ được khấu trừ khỏi nhóm cho vay và bị tiêu hủy để thỏa mãn khoản nợ. Bạn vẫn nhận được phần tài sản thế chấp của mình (EOS).",
+        "step11": "2) Nếu bạn không có mã thông báo nợ trong nhóm cho vay thì một số tài sản trong nhóm cho vay của bạn sẽ được chuyển sang tài sản thế chấp để hoàn trả khoản nợ bạn nhận được. Bạn có thể mua VIGOR từ trao đổi và trả nợ để thanh toán khoản nợ và giải phóng tài sản thế chấp của bạn.",
+        "step12": "3) Đối với các khoản cho vay tiền điện tử (Không - Vigor), nếu bạn có mã thông báo nợ (ví dụ: EOS) được gửi làm tài sản thế chấp cho các khoản vay VIGOR, thì phần nợ của bạn sẽ được khấu trừ khỏi tài sản thế chấp của bạn và bị tiêu hủy để thỏa mãn khoản nợ."
+      }
+    }
+  },
+
+  "es": {
+    "translation": {
+      "index": {
+        "header": "Toma prestado, Presta y Ahorra Comunidad"
+      }
+    }
+  }
+}
